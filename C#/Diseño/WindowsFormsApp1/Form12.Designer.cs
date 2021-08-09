@@ -29,6 +29,7 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form12));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -44,7 +45,9 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(256, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(269, 39);
@@ -54,7 +57,9 @@ namespace WindowsFormsApp1
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(55, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(127, 25);
@@ -72,9 +77,9 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.BackColor = System.Drawing.Color.Gold;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(179, 213);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 48);
@@ -84,9 +89,9 @@ namespace WindowsFormsApp1
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Teal;
+            this.button2.BackColor = System.Drawing.Color.Gold;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(338, 213);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 48);
@@ -96,20 +101,23 @@ namespace WindowsFormsApp1
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Teal;
+            this.button3.BackColor = System.Drawing.Color.Gold;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(500, 213);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(118, 48);
             this.button3.TabIndex = 38;
             this.button3.Text = "Regresar";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Navy;
             this.label3.Location = new System.Drawing.Point(55, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 25);
@@ -119,7 +127,9 @@ namespace WindowsFormsApp1
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Navy;
             this.label4.Location = new System.Drawing.Point(398, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(114, 25);
@@ -160,8 +170,10 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form12";
-            this.Text = "Form12";
+            this.Text = "Tipo de usuario";
+            this.Load += new System.EventHandler(this.Form12_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
