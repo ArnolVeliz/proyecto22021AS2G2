@@ -1,0 +1,35 @@
+use prototipo;
+
+
+INSERT INTO `prototipo`.`membresias` (`id_membresia`, `nombre`, `descripcion`, `descuento`, `num_pel_desc`) VALUES ('101', 'Bronce', 'Esta membrecia ofrece un decuento del 10% a sus clientes despues de la renta de 50 videos', '0.10', '50');
+INSERT INTO `prototipo`.`membresias` (`id_membresia`, `nombre`, `descripcion`, `descuento`, `num_pel_desc`) VALUES ('102', 'Platinum', 'Esta membrecia ofrece un decuento del 35% a sus clientes despues de la renta de 35 videos', '0.15', '35');
+INSERT INTO `prototipo`.`membresias` (`id_membresia`, `nombre`, `descripcion`, `descuento`, `num_pel_desc`) VALUES ('103', 'Golden', 'Esta membrecia ofrece un decuento del 25% a sus clientes despues de la renta de 25 videos', '0.25', '25');
+
+ALTER TABLE `prototipo`.`clientes` CHANGE COLUMN `DPI` `DPI` VARCHAR(13) NOT NULL ;
+
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('201', 'Monica', 'Llaca', '2000-05-22', '2817142560301', '58966654', 'MonLlac@gmail.com', 'Macos Llaca', '66545987', '102', '2021-02-22');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('202', 'Mario', 'Reyes', '1995-04-18', '2815965810401', '25236548', 'Mar33R@yahoo.com', 'Roberto Sandoval', '44589657', '102', '2021-02-15');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('203', 'Sofia', 'Gomez', '1987-10-11', '3016908210401', '55598751', 'GomezS859@gmail.com', 'Maria Gomez', '62659875', '101', '2021-03-20');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('204', 'Erick', 'Hernandez', '1990-11-30', '2320556340103', '33265948', 'rickDez12@gmail.com', 'Patrick Lopez', '55465987', '103', '2020-10-23');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('205', 'Fiorella', 'Ortiz', '2001-07-21', '3259864580103', '65955487', 'FioreTiz0303@gmail.com', 'Diego Ortiz', '52001236', '103', '2021-01-10');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('206', 'Pablo', 'Sandoval', '2000-02-27', '2320556340103', '81815698', 'Sandovalpp89@gmail.com', 'Veronica Sandoval', '78000564', '101', '2020-11-14');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('207', 'Jorge', 'Aldana', '1999-03-15', '2222624130903', '44748956', 'Aldana8j@yahoo.com', 'Camila Mendes', '30325698', '101', '2021-04-16');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('208', 'Alisson', 'Avalos', '1995-04-16', '2823654810401', '48516954', 'Ali8valos@gmail.com', 'Mynor Avalos', '78456215', '101', '2021-01-21');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('209', 'Carlos', 'Zea', '2000-08-28', '3029952690108', '58723698', 'Zeacs23@yahoo.com', 'Caroline Toasper', '50000028', '102', '2020-12-05');
+INSERT INTO `prototipo`.`clientes` (`id_cliente`, `nombre`, `apellido`, `fecha_nac`, `DPI`, `telefono`, `correo`, `contacto_nombre`, `contacto_telefono`, `membresia`, `fecha_reg`) VALUES ('210', 'Ashley', 'Canizales', '2000-04-01', '2993875930101', '78545928', 'Ashleyy96c@gmail.com', 'Natalia Canizales', '43211569', '103', '2021-03-15');
+
+INSERT INTO `prototipo`.`categoria_pel` (`idcat`, `Nombre`, `Descripcion`) VALUES ('301', 'Acción', 'Cintas explosivas, con actores populares y con tramas lineales, llenas de persecuciones');
+INSERT INTO `prototipo`.`categoria_pel` (`idcat`, `Nombre`, `Descripcion`) VALUES ('302', 'Drama', 'Presenta historias serias, en las que prevalece el dialogo y la acción orientadas a generar tensión y presentar pasiones conflictivas más que generar humor. ');
+INSERT INTO `prototipo`.`categoria_pel` (`idcat`, `Nombre`, `Descripcion`) VALUES ('303', 'Romance', 'Se centra en la relación de dos personajes en el amor.');
+INSERT INTO `prototipo`.`categoria_pel` (`idcat`, `Nombre`, `Descripcion`) VALUES ('304', 'Terror', 'Se caracteriza por su voluntad de provocar en el espectador sensaciones de pavor, terror, miedo,  horror, incomodidad o preocupación. ');
+
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('401', 'Rapidos y Furiosos 1', '301', '2001-07-22', '1.47', '25', '31.00', '25');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('402', 'Votos de Amor', '303', '2012-02-06', '1.44', '16', '20.87', '16');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('403', 'La monja', '304', '2018-09-05', '1.36', '40', '20.00', '40');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('404', 'Chucky 1', '304', '1988-11-09', '1.28', '30', '25.50', '30');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('405', 'Chucky 2', '304', '1990-11-09', '1.24', '30', '25.00', '30');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('406', 'Emma', '302', '2020-02-22', '2.12', '10', '64.00', '10');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('407', 'Los Ilusionistas', '302', '2013-05-11', '2.5', '25', '46.80', '25');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('408', 'Rapidos y Furiosos 5', '301', '2011-04-15', '2.10', '50', '65.25', '50');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('409', 'Venom', '301', '2018-07-03', '2.20', '40', '49.00', '40');
+INSERT INTO `prototipo`.`videos` (`id_video`, `nombre`, `categoria`, `fecha_estreno`, `duracion`, `cantidad`, `precio`, `stock`) VALUES ('410', 'After', '302', '2019-04-08', '1.45', '50', '24.00', '50');
