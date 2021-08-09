@@ -76,6 +76,7 @@ namespace WindowsFormsApp1
             this.button1.TabIndex = 8;
             this.button1.Text = "Categorias de peliculas";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -101,6 +102,7 @@ namespace WindowsFormsApp1
             this.button4.TabIndex = 10;
             this.button4.Text = "Facturación";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -113,6 +115,7 @@ namespace WindowsFormsApp1
             this.button5.TabIndex = 11;
             this.button5.Text = "Videos registrados";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -151,6 +154,7 @@ namespace WindowsFormsApp1
             this.button8.TabIndex = 14;
             this.button8.Text = "Clientes";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -163,6 +167,7 @@ namespace WindowsFormsApp1
             this.button9.TabIndex = 15;
             this.button9.Text = "Registro de pagos";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -175,6 +180,7 @@ namespace WindowsFormsApp1
             this.button10.TabIndex = 16;
             this.button10.Text = "Tipos de usuario";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Form2
             // 

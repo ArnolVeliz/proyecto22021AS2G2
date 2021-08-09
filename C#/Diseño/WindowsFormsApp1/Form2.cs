@@ -48,5 +48,41 @@ namespace WindowsFormsApp1
             Form formulario = new Form6();
             formulario.Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form7();
+            formulario.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form8();
+            formulario.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form9();
+            formulario.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form10();
+            formulario.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form11();
+            formulario.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form12();
+            formulario.Show();
+        }
     }
 }
