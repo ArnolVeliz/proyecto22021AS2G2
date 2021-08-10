@@ -32,18 +32,18 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_idcliente_CLIENTES = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_CLIENTES = new System.Windows.Forms.Button();
+            this.TXT_agregar_CLIENTES = new System.Windows.Forms.Button();
+            this.txt_regresar_CLIENTES = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TXT_nom_CLIENTES = new System.Windows.Forms.TextBox();
+            this.TXT_ape_CLIENTES = new System.Windows.Forms.TextBox();
+            this.TXT_fechaNAC_CLIENTES = new System.Windows.Forms.TextBox();
+            this.txt_fechaRegistro_CLIENTES = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -80,51 +80,51 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 10;
             this.label2.Text = "ID de cliente";
             // 
-            // textBox1
+            // TXT_idcliente_CLIENTES
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(175, 80);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 11;
+            this.TXT_idcliente_CLIENTES.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idcliente_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idcliente_CLIENTES.Location = new System.Drawing.Point(175, 80);
+            this.TXT_idcliente_CLIENTES.Name = "TXT_idcliente_CLIENTES";
+            this.TXT_idcliente_CLIENTES.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idcliente_CLIENTES.TabIndex = 11;
             // 
-            // button1
+            // BTN_modificar_CLIENTES
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(171, 298);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_CLIENTES.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_CLIENTES.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_CLIENTES.Location = new System.Drawing.Point(171, 298);
+            this.BTN_modificar_CLIENTES.Name = "BTN_modificar_CLIENTES";
+            this.BTN_modificar_CLIENTES.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_CLIENTES.TabIndex = 32;
+            this.BTN_modificar_CLIENTES.Text = "Modificar";
+            this.BTN_modificar_CLIENTES.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // TXT_agregar_CLIENTES
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(340, 298);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 33;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.TXT_agregar_CLIENTES.BackColor = System.Drawing.Color.Gold;
+            this.TXT_agregar_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_agregar_CLIENTES.ForeColor = System.Drawing.Color.Black;
+            this.TXT_agregar_CLIENTES.Location = new System.Drawing.Point(340, 298);
+            this.TXT_agregar_CLIENTES.Name = "TXT_agregar_CLIENTES";
+            this.TXT_agregar_CLIENTES.Size = new System.Drawing.Size(118, 48);
+            this.TXT_agregar_CLIENTES.TabIndex = 33;
+            this.TXT_agregar_CLIENTES.Text = "Agregar";
+            this.TXT_agregar_CLIENTES.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // txt_regresar_CLIENTES
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(498, 298);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 34;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.txt_regresar_CLIENTES.BackColor = System.Drawing.Color.Gold;
+            this.txt_regresar_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_regresar_CLIENTES.ForeColor = System.Drawing.Color.Black;
+            this.txt_regresar_CLIENTES.Location = new System.Drawing.Point(498, 298);
+            this.txt_regresar_CLIENTES.Name = "txt_regresar_CLIENTES";
+            this.txt_regresar_CLIENTES.Size = new System.Drawing.Size(118, 48);
+            this.txt_regresar_CLIENTES.TabIndex = 34;
+            this.txt_regresar_CLIENTES.Text = "Regresar";
+            this.txt_regresar_CLIENTES.UseVisualStyleBackColor = false;
+            this.txt_regresar_CLIENTES.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -174,41 +174,41 @@ namespace WindowsFormsApp1
             this.label6.TabIndex = 38;
             this.label6.Text = "Fecha de registro";
             // 
-            // textBox2
+            // TXT_nom_CLIENTES
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(175, 117);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 30);
-            this.textBox2.TabIndex = 39;
+            this.TXT_nom_CLIENTES.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_nom_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_nom_CLIENTES.Location = new System.Drawing.Point(175, 117);
+            this.TXT_nom_CLIENTES.Name = "TXT_nom_CLIENTES";
+            this.TXT_nom_CLIENTES.Size = new System.Drawing.Size(184, 30);
+            this.TXT_nom_CLIENTES.TabIndex = 39;
             // 
-            // textBox3
+            // TXT_ape_CLIENTES
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(175, 155);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 40;
+            this.TXT_ape_CLIENTES.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_ape_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_ape_CLIENTES.Location = new System.Drawing.Point(175, 155);
+            this.TXT_ape_CLIENTES.Name = "TXT_ape_CLIENTES";
+            this.TXT_ape_CLIENTES.Size = new System.Drawing.Size(184, 30);
+            this.TXT_ape_CLIENTES.TabIndex = 40;
             // 
-            // textBox4
+            // TXT_fechaNAC_CLIENTES
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(249, 194);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(154, 30);
-            this.textBox4.TabIndex = 41;
+            this.TXT_fechaNAC_CLIENTES.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_fechaNAC_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_fechaNAC_CLIENTES.Location = new System.Drawing.Point(249, 194);
+            this.TXT_fechaNAC_CLIENTES.Name = "TXT_fechaNAC_CLIENTES";
+            this.TXT_fechaNAC_CLIENTES.Size = new System.Drawing.Size(154, 30);
+            this.TXT_fechaNAC_CLIENTES.TabIndex = 41;
             // 
-            // textBox5
+            // txt_fechaRegistro_CLIENTES
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(219, 230);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(184, 30);
-            this.textBox5.TabIndex = 42;
+            this.txt_fechaRegistro_CLIENTES.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_fechaRegistro_CLIENTES.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fechaRegistro_CLIENTES.Location = new System.Drawing.Point(219, 230);
+            this.txt_fechaRegistro_CLIENTES.Name = "txt_fechaRegistro_CLIENTES";
+            this.txt_fechaRegistro_CLIENTES.Size = new System.Drawing.Size(184, 30);
+            this.txt_fechaRegistro_CLIENTES.TabIndex = 42;
             // 
             // label7
             // 
@@ -331,18 +331,18 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_fechaRegistro_CLIENTES);
+            this.Controls.Add(this.TXT_fechaNAC_CLIENTES);
+            this.Controls.Add(this.TXT_ape_CLIENTES);
+            this.Controls.Add(this.TXT_nom_CLIENTES);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_regresar_CLIENTES);
+            this.Controls.Add(this.TXT_agregar_CLIENTES);
+            this.Controls.Add(this.BTN_modificar_CLIENTES);
+            this.Controls.Add(this.TXT_idcliente_CLIENTES);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -358,18 +358,18 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_idcliente_CLIENTES;
+        private System.Windows.Forms.Button BTN_modificar_CLIENTES;
+        private System.Windows.Forms.Button TXT_agregar_CLIENTES;
+        private System.Windows.Forms.Button txt_regresar_CLIENTES;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TXT_nom_CLIENTES;
+        private System.Windows.Forms.TextBox TXT_ape_CLIENTES;
+        private System.Windows.Forms.TextBox TXT_fechaNAC_CLIENTES;
+        private System.Windows.Forms.TextBox txt_fechaRegistro_CLIENTES;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;

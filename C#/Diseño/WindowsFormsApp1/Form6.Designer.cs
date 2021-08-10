@@ -31,17 +31,17 @@ namespace WindowsFormsApp1
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.TXT_idmetodo_METODOPAGO = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_METODOPAGO = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.TXT_nom_METODOPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_regresar_METODOPAGO = new System.Windows.Forms.Button();
+            this.TXT_agregar_METODOPAGO = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TXT_descripcion_METODOPAGO = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -56,26 +56,26 @@ namespace WindowsFormsApp1
             this.label1.TabIndex = 2;
             this.label1.Text = "Metodos de pago";
             // 
-            // textBox1
+            // TXT_idmetodo_METODOPAGO
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(182, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(203, 30);
-            this.textBox1.TabIndex = 3;
+            this.TXT_idmetodo_METODOPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idmetodo_METODOPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idmetodo_METODOPAGO.Location = new System.Drawing.Point(182, 69);
+            this.TXT_idmetodo_METODOPAGO.Name = "TXT_idmetodo_METODOPAGO";
+            this.TXT_idmetodo_METODOPAGO.Size = new System.Drawing.Size(203, 30);
+            this.TXT_idmetodo_METODOPAGO.TabIndex = 3;
             // 
-            // button1
+            // BTN_modificar_METODOPAGO
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(202, 174);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_METODOPAGO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_METODOPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_METODOPAGO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_METODOPAGO.Location = new System.Drawing.Point(202, 174);
+            this.BTN_modificar_METODOPAGO.Name = "BTN_modificar_METODOPAGO";
+            this.BTN_modificar_METODOPAGO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_METODOPAGO.TabIndex = 5;
+            this.BTN_modificar_METODOPAGO.Text = "Modificar";
+            this.BTN_modificar_METODOPAGO.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -112,39 +112,39 @@ namespace WindowsFormsApp1
             this.label7.Size = new System.Drawing.Size(0, 25);
             this.label7.TabIndex = 12;
             // 
-            // textBox2
+            // TXT_nom_METODOPAGO
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(225, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(161, 30);
-            this.textBox2.TabIndex = 19;
+            this.TXT_nom_METODOPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_nom_METODOPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_nom_METODOPAGO.Location = new System.Drawing.Point(225, 110);
+            this.TXT_nom_METODOPAGO.Name = "TXT_nom_METODOPAGO";
+            this.TXT_nom_METODOPAGO.Size = new System.Drawing.Size(161, 30);
+            this.TXT_nom_METODOPAGO.TabIndex = 19;
             // 
-            // button3
+            // TXT_regresar_METODOPAGO
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(500, 174);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.TXT_regresar_METODOPAGO.BackColor = System.Drawing.Color.Gold;
+            this.TXT_regresar_METODOPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_regresar_METODOPAGO.ForeColor = System.Drawing.Color.Black;
+            this.TXT_regresar_METODOPAGO.Location = new System.Drawing.Point(500, 174);
+            this.TXT_regresar_METODOPAGO.Name = "TXT_regresar_METODOPAGO";
+            this.TXT_regresar_METODOPAGO.Size = new System.Drawing.Size(118, 48);
+            this.TXT_regresar_METODOPAGO.TabIndex = 30;
+            this.TXT_regresar_METODOPAGO.Text = "Regresar";
+            this.TXT_regresar_METODOPAGO.UseVisualStyleBackColor = false;
+            this.TXT_regresar_METODOPAGO.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // TXT_agregar_METODOPAGO
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(347, 174);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 31;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.TXT_agregar_METODOPAGO.BackColor = System.Drawing.Color.Gold;
+            this.TXT_agregar_METODOPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_agregar_METODOPAGO.ForeColor = System.Drawing.Color.Black;
+            this.TXT_agregar_METODOPAGO.Location = new System.Drawing.Point(347, 174);
+            this.TXT_agregar_METODOPAGO.Name = "TXT_agregar_METODOPAGO";
+            this.TXT_agregar_METODOPAGO.Size = new System.Drawing.Size(118, 48);
+            this.TXT_agregar_METODOPAGO.TabIndex = 31;
+            this.TXT_agregar_METODOPAGO.Text = "Agregar";
+            this.TXT_agregar_METODOPAGO.UseVisualStyleBackColor = false;
             // 
             // label10
             // 
@@ -167,14 +167,14 @@ namespace WindowsFormsApp1
             this.label4.TabIndex = 33;
             this.label4.Text = "Descripcion";
             // 
-            // textBox3
+            // TXT_descripcion_METODOPAGO
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(519, 72);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(186, 30);
-            this.textBox3.TabIndex = 34;
+            this.TXT_descripcion_METODOPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_descripcion_METODOPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_descripcion_METODOPAGO.Location = new System.Drawing.Point(519, 72);
+            this.TXT_descripcion_METODOPAGO.Name = "TXT_descripcion_METODOPAGO";
+            this.TXT_descripcion_METODOPAGO.Size = new System.Drawing.Size(186, 30);
+            this.TXT_descripcion_METODOPAGO.TabIndex = 34;
             // 
             // Form6
             // 
@@ -182,17 +182,17 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(732, 421);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.TXT_descripcion_METODOPAGO);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TXT_agregar_METODOPAGO);
+            this.Controls.Add(this.TXT_regresar_METODOPAGO);
+            this.Controls.Add(this.TXT_nom_METODOPAGO);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BTN_modificar_METODOPAGO);
+            this.Controls.Add(this.TXT_idmetodo_METODOPAGO);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form6";
@@ -206,16 +206,16 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox TXT_idmetodo_METODOPAGO;
+        private System.Windows.Forms.Button BTN_modificar_METODOPAGO;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox TXT_nom_METODOPAGO;
+        private System.Windows.Forms.Button TXT_regresar_METODOPAGO;
+        private System.Windows.Forms.Button TXT_agregar_METODOPAGO;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TXT_descripcion_METODOPAGO;
     }
 }

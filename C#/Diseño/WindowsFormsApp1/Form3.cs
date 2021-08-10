@@ -25,10 +25,20 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
             Form formulario = new Form2();
             formulario.Show();
+        }
+
+        private void BTN_modificarUSUARIO_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BTN_agregarUSUARIO_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
