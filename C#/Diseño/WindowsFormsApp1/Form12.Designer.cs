@@ -32,14 +32,14 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form12));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_idTipoUsuario_TIPOUSUARIO = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_TIPOUSUARIO = new System.Windows.Forms.Button();
+            this.TXT_agregar_TIPOUSUARIO = new System.Windows.Forms.Button();
+            this.TXT_regresar_TIPOUSUARIO = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TXT_nom_TIPOUSUARIO = new System.Windows.Forms.TextBox();
+            this.txt_descripcion_TIPOUSUARIO = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -66,51 +66,51 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 14;
             this.label2.Text = "ID de usuario";
             // 
-            // textBox1
+            // TXT_idTipoUsuario_TIPOUSUARIO
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(188, 71);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 15;
+            this.TXT_idTipoUsuario_TIPOUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idTipoUsuario_TIPOUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idTipoUsuario_TIPOUSUARIO.Location = new System.Drawing.Point(188, 71);
+            this.TXT_idTipoUsuario_TIPOUSUARIO.Name = "TXT_idTipoUsuario_TIPOUSUARIO";
+            this.TXT_idTipoUsuario_TIPOUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idTipoUsuario_TIPOUSUARIO.TabIndex = 15;
             // 
-            // button1
+            // BTN_modificar_TIPOUSUARIO
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(179, 213);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_TIPOUSUARIO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_TIPOUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_TIPOUSUARIO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_TIPOUSUARIO.Location = new System.Drawing.Point(179, 213);
+            this.BTN_modificar_TIPOUSUARIO.Name = "BTN_modificar_TIPOUSUARIO";
+            this.BTN_modificar_TIPOUSUARIO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_TIPOUSUARIO.TabIndex = 36;
+            this.BTN_modificar_TIPOUSUARIO.Text = "Modificar";
+            this.BTN_modificar_TIPOUSUARIO.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // TXT_agregar_TIPOUSUARIO
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(338, 213);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.TXT_agregar_TIPOUSUARIO.BackColor = System.Drawing.Color.Gold;
+            this.TXT_agregar_TIPOUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_agregar_TIPOUSUARIO.ForeColor = System.Drawing.Color.Black;
+            this.TXT_agregar_TIPOUSUARIO.Location = new System.Drawing.Point(338, 213);
+            this.TXT_agregar_TIPOUSUARIO.Name = "TXT_agregar_TIPOUSUARIO";
+            this.TXT_agregar_TIPOUSUARIO.Size = new System.Drawing.Size(118, 48);
+            this.TXT_agregar_TIPOUSUARIO.TabIndex = 37;
+            this.TXT_agregar_TIPOUSUARIO.Text = "Agregar";
+            this.TXT_agregar_TIPOUSUARIO.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // TXT_regresar_TIPOUSUARIO
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(500, 213);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 38;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.TXT_regresar_TIPOUSUARIO.BackColor = System.Drawing.Color.Gold;
+            this.TXT_regresar_TIPOUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_regresar_TIPOUSUARIO.ForeColor = System.Drawing.Color.Black;
+            this.TXT_regresar_TIPOUSUARIO.Location = new System.Drawing.Point(500, 213);
+            this.TXT_regresar_TIPOUSUARIO.Name = "TXT_regresar_TIPOUSUARIO";
+            this.TXT_regresar_TIPOUSUARIO.Size = new System.Drawing.Size(118, 48);
+            this.TXT_regresar_TIPOUSUARIO.TabIndex = 38;
+            this.TXT_regresar_TIPOUSUARIO.Text = "Regresar";
+            this.TXT_regresar_TIPOUSUARIO.UseVisualStyleBackColor = false;
+            this.TXT_regresar_TIPOUSUARIO.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -136,23 +136,23 @@ namespace WindowsFormsApp1
             this.label4.TabIndex = 40;
             this.label4.Text = "Descripción";
             // 
-            // textBox2
+            // TXT_nom_TIPOUSUARIO
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(170, 115);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(202, 30);
-            this.textBox2.TabIndex = 41;
+            this.TXT_nom_TIPOUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_nom_TIPOUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_nom_TIPOUSUARIO.Location = new System.Drawing.Point(170, 115);
+            this.TXT_nom_TIPOUSUARIO.Name = "TXT_nom_TIPOUSUARIO";
+            this.TXT_nom_TIPOUSUARIO.Size = new System.Drawing.Size(202, 30);
+            this.TXT_nom_TIPOUSUARIO.TabIndex = 41;
             // 
-            // textBox3
+            // txt_descripcion_TIPOUSUARIO
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(518, 73);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 42;
+            this.txt_descripcion_TIPOUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_descripcion_TIPOUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_descripcion_TIPOUSUARIO.Location = new System.Drawing.Point(518, 73);
+            this.txt_descripcion_TIPOUSUARIO.Name = "txt_descripcion_TIPOUSUARIO";
+            this.txt_descripcion_TIPOUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.txt_descripcion_TIPOUSUARIO.TabIndex = 42;
             // 
             // Form12
             // 
@@ -160,14 +160,14 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_descripcion_TIPOUSUARIO);
+            this.Controls.Add(this.TXT_nom_TIPOUSUARIO);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TXT_regresar_TIPOUSUARIO);
+            this.Controls.Add(this.TXT_agregar_TIPOUSUARIO);
+            this.Controls.Add(this.BTN_modificar_TIPOUSUARIO);
+            this.Controls.Add(this.TXT_idTipoUsuario_TIPOUSUARIO);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -183,13 +183,13 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_idTipoUsuario_TIPOUSUARIO;
+        private System.Windows.Forms.Button BTN_modificar_TIPOUSUARIO;
+        private System.Windows.Forms.Button TXT_agregar_TIPOUSUARIO;
+        private System.Windows.Forms.Button TXT_regresar_TIPOUSUARIO;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TXT_nom_TIPOUSUARIO;
+        private System.Windows.Forms.TextBox txt_descripcion_TIPOUSUARIO;
     }
 }

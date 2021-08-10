@@ -32,18 +32,18 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_idMEMBRESIA = new System.Windows.Forms.TextBox();
+            this.BTN_modificarMEMBRESIA = new System.Windows.Forms.Button();
+            this.BTN_agregarMEMBRESIA = new System.Windows.Forms.Button();
+            this.BTN_regresarMEMBRESIA = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TXT__nomMEMBRESIA = new System.Windows.Forms.TextBox();
+            this.TXT_descripcionMEMBRESIA = new System.Windows.Forms.TextBox();
+            this.txt_descuentoMEMBRESIA = new System.Windows.Forms.TextBox();
+            this.TXT__numPeliculaMEMBRESIA = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -70,51 +70,51 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 9;
             this.label2.Text = "ID de membresia";
             // 
-            // textBox1
+            // TXT_idMEMBRESIA
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(213, 68);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 30);
-            this.textBox1.TabIndex = 10;
+            this.TXT_idMEMBRESIA.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idMEMBRESIA.Location = new System.Drawing.Point(213, 68);
+            this.TXT_idMEMBRESIA.Name = "TXT_idMEMBRESIA";
+            this.TXT_idMEMBRESIA.Size = new System.Drawing.Size(174, 30);
+            this.TXT_idMEMBRESIA.TabIndex = 10;
             // 
-            // button1
+            // BTN_modificarMEMBRESIA
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(192, 239);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificarMEMBRESIA.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificarMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificarMEMBRESIA.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificarMEMBRESIA.Location = new System.Drawing.Point(192, 239);
+            this.BTN_modificarMEMBRESIA.Name = "BTN_modificarMEMBRESIA";
+            this.BTN_modificarMEMBRESIA.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificarMEMBRESIA.TabIndex = 11;
+            this.BTN_modificarMEMBRESIA.Text = "Modificar";
+            this.BTN_modificarMEMBRESIA.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // BTN_agregarMEMBRESIA
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(346, 239);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 33;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BTN_agregarMEMBRESIA.BackColor = System.Drawing.Color.Gold;
+            this.BTN_agregarMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_agregarMEMBRESIA.ForeColor = System.Drawing.Color.Black;
+            this.BTN_agregarMEMBRESIA.Location = new System.Drawing.Point(346, 239);
+            this.BTN_agregarMEMBRESIA.Name = "BTN_agregarMEMBRESIA";
+            this.BTN_agregarMEMBRESIA.Size = new System.Drawing.Size(118, 48);
+            this.BTN_agregarMEMBRESIA.TabIndex = 33;
+            this.BTN_agregarMEMBRESIA.Text = "Agregar";
+            this.BTN_agregarMEMBRESIA.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BTN_regresarMEMBRESIA
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(502, 239);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 34;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_regresarMEMBRESIA.BackColor = System.Drawing.Color.Gold;
+            this.BTN_regresarMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_regresarMEMBRESIA.ForeColor = System.Drawing.Color.Black;
+            this.BTN_regresarMEMBRESIA.Location = new System.Drawing.Point(502, 239);
+            this.BTN_regresarMEMBRESIA.Name = "BTN_regresarMEMBRESIA";
+            this.BTN_regresarMEMBRESIA.Size = new System.Drawing.Size(118, 48);
+            this.BTN_regresarMEMBRESIA.TabIndex = 34;
+            this.BTN_regresarMEMBRESIA.Text = "Regresar";
+            this.BTN_regresarMEMBRESIA.UseVisualStyleBackColor = false;
+            this.BTN_regresarMEMBRESIA.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -164,41 +164,41 @@ namespace WindowsFormsApp1
             this.label6.TabIndex = 38;
             this.label6.Text = "Número de pelicula";
             // 
-            // textBox2
+            // TXT__nomMEMBRESIA
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(175, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 30);
-            this.textBox2.TabIndex = 39;
+            this.TXT__nomMEMBRESIA.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT__nomMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT__nomMEMBRESIA.Location = new System.Drawing.Point(175, 110);
+            this.TXT__nomMEMBRESIA.Name = "TXT__nomMEMBRESIA";
+            this.TXT__nomMEMBRESIA.Size = new System.Drawing.Size(212, 30);
+            this.TXT__nomMEMBRESIA.TabIndex = 39;
             // 
-            // textBox3
+            // TXT_descripcionMEMBRESIA
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(175, 153);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(212, 30);
-            this.textBox3.TabIndex = 40;
+            this.TXT_descripcionMEMBRESIA.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_descripcionMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_descripcionMEMBRESIA.Location = new System.Drawing.Point(175, 153);
+            this.TXT_descripcionMEMBRESIA.Name = "TXT_descripcionMEMBRESIA";
+            this.TXT_descripcionMEMBRESIA.Size = new System.Drawing.Size(212, 30);
+            this.TXT_descripcionMEMBRESIA.TabIndex = 40;
             // 
-            // textBox4
+            // txt_descuentoMEMBRESIA
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(535, 70);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(212, 30);
-            this.textBox4.TabIndex = 41;
+            this.txt_descuentoMEMBRESIA.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_descuentoMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_descuentoMEMBRESIA.Location = new System.Drawing.Point(535, 70);
+            this.txt_descuentoMEMBRESIA.Name = "txt_descuentoMEMBRESIA";
+            this.txt_descuentoMEMBRESIA.Size = new System.Drawing.Size(212, 30);
+            this.txt_descuentoMEMBRESIA.TabIndex = 41;
             // 
-            // textBox5
+            // TXT__numPeliculaMEMBRESIA
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(598, 110);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(149, 30);
-            this.textBox5.TabIndex = 42;
+            this.TXT__numPeliculaMEMBRESIA.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT__numPeliculaMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT__numPeliculaMEMBRESIA.Location = new System.Drawing.Point(598, 110);
+            this.TXT__numPeliculaMEMBRESIA.Name = "TXT__numPeliculaMEMBRESIA";
+            this.TXT__numPeliculaMEMBRESIA.Size = new System.Drawing.Size(149, 30);
+            this.TXT__numPeliculaMEMBRESIA.TabIndex = 42;
             // 
             // Form4
             // 
@@ -206,18 +206,18 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TXT__numPeliculaMEMBRESIA);
+            this.Controls.Add(this.txt_descuentoMEMBRESIA);
+            this.Controls.Add(this.TXT_descripcionMEMBRESIA);
+            this.Controls.Add(this.TXT__nomMEMBRESIA);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BTN_regresarMEMBRESIA);
+            this.Controls.Add(this.BTN_agregarMEMBRESIA);
+            this.Controls.Add(this.BTN_modificarMEMBRESIA);
+            this.Controls.Add(this.TXT_idMEMBRESIA);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -233,17 +233,17 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_idMEMBRESIA;
+        private System.Windows.Forms.Button BTN_modificarMEMBRESIA;
+        private System.Windows.Forms.Button BTN_agregarMEMBRESIA;
+        private System.Windows.Forms.Button BTN_regresarMEMBRESIA;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TXT__nomMEMBRESIA;
+        private System.Windows.Forms.TextBox TXT_descripcionMEMBRESIA;
+        private System.Windows.Forms.TextBox txt_descuentoMEMBRESIA;
+        private System.Windows.Forms.TextBox TXT__numPeliculaMEMBRESIA;
     }
 }

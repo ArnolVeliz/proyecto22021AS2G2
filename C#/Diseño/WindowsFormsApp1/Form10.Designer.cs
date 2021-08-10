@@ -32,26 +32,26 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_IdFactura_FACTURACION = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_FACTURACION = new System.Windows.Forms.Button();
+            this.BTN_agregar_FACTURACION = new System.Windows.Forms.Button();
+            this.BTN_regresar_FACTURACION = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TXT_noFac__FACTURACION = new System.Windows.Forms.TextBox();
+            this.txt_nom_FACTURACION = new System.Windows.Forms.TextBox();
+            this.txt_nit_FACTURACION = new System.Windows.Forms.TextBox();
+            this.txt_codAlquiler_FACTURACION = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_detalle_FACTURACION = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txt_total_FACTURACION = new System.Windows.Forms.TextBox();
+            this.txt_metodoPago_FACTURACION = new System.Windows.Forms.TextBox();
+            this.txt_fechaPago_FACTURACION = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -78,51 +78,51 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 12;
             this.label2.Text = "ID de factura";
             // 
-            // textBox1
+            // TXT_IdFactura_FACTURACION
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(178, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 13;
+            this.TXT_IdFactura_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_IdFactura_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_IdFactura_FACTURACION.Location = new System.Drawing.Point(178, 72);
+            this.TXT_IdFactura_FACTURACION.Name = "TXT_IdFactura_FACTURACION";
+            this.TXT_IdFactura_FACTURACION.Size = new System.Drawing.Size(184, 30);
+            this.TXT_IdFactura_FACTURACION.TabIndex = 13;
             // 
-            // button1
+            // BTN_modificar_FACTURACION
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(156, 321);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_FACTURACION.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_FACTURACION.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_FACTURACION.Location = new System.Drawing.Point(156, 321);
+            this.BTN_modificar_FACTURACION.Name = "BTN_modificar_FACTURACION";
+            this.BTN_modificar_FACTURACION.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_FACTURACION.TabIndex = 34;
+            this.BTN_modificar_FACTURACION.Text = "Modificar";
+            this.BTN_modificar_FACTURACION.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // BTN_agregar_FACTURACION
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(327, 321);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BTN_agregar_FACTURACION.BackColor = System.Drawing.Color.Gold;
+            this.BTN_agregar_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_agregar_FACTURACION.ForeColor = System.Drawing.Color.Black;
+            this.BTN_agregar_FACTURACION.Location = new System.Drawing.Point(327, 321);
+            this.BTN_agregar_FACTURACION.Name = "BTN_agregar_FACTURACION";
+            this.BTN_agregar_FACTURACION.Size = new System.Drawing.Size(118, 48);
+            this.BTN_agregar_FACTURACION.TabIndex = 35;
+            this.BTN_agregar_FACTURACION.Text = "Agregar";
+            this.BTN_agregar_FACTURACION.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BTN_regresar_FACTURACION
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(501, 321);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 36;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_regresar_FACTURACION.BackColor = System.Drawing.Color.Gold;
+            this.BTN_regresar_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_regresar_FACTURACION.ForeColor = System.Drawing.Color.Black;
+            this.BTN_regresar_FACTURACION.Location = new System.Drawing.Point(501, 321);
+            this.BTN_regresar_FACTURACION.Name = "BTN_regresar_FACTURACION";
+            this.BTN_regresar_FACTURACION.Size = new System.Drawing.Size(118, 48);
+            this.BTN_regresar_FACTURACION.TabIndex = 36;
+            this.BTN_regresar_FACTURACION.Text = "Regresar";
+            this.BTN_regresar_FACTURACION.UseVisualStyleBackColor = false;
+            this.BTN_regresar_FACTURACION.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -172,41 +172,41 @@ namespace WindowsFormsApp1
             this.label6.TabIndex = 40;
             this.label6.Text = "Codigo de alquiler";
             // 
-            // textBox2
+            // TXT_noFac__FACTURACION
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(178, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 30);
-            this.textBox2.TabIndex = 41;
+            this.TXT_noFac__FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_noFac__FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_noFac__FACTURACION.Location = new System.Drawing.Point(178, 111);
+            this.TXT_noFac__FACTURACION.Name = "TXT_noFac__FACTURACION";
+            this.TXT_noFac__FACTURACION.Size = new System.Drawing.Size(184, 30);
+            this.TXT_noFac__FACTURACION.TabIndex = 41;
             // 
-            // textBox3
+            // txt_nom_FACTURACION
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(178, 152);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 42;
+            this.txt_nom_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_nom_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nom_FACTURACION.Location = new System.Drawing.Point(178, 152);
+            this.txt_nom_FACTURACION.Name = "txt_nom_FACTURACION";
+            this.txt_nom_FACTURACION.Size = new System.Drawing.Size(184, 30);
+            this.txt_nom_FACTURACION.TabIndex = 42;
             // 
-            // textBox4
+            // txt_nit_FACTURACION
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(178, 194);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 30);
-            this.textBox4.TabIndex = 43;
+            this.txt_nit_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_nit_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nit_FACTURACION.Location = new System.Drawing.Point(178, 194);
+            this.txt_nit_FACTURACION.Name = "txt_nit_FACTURACION";
+            this.txt_nit_FACTURACION.Size = new System.Drawing.Size(184, 30);
+            this.txt_nit_FACTURACION.TabIndex = 43;
             // 
-            // textBox5
+            // txt_codAlquiler_FACTURACION
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(225, 233);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(137, 30);
-            this.textBox5.TabIndex = 44;
+            this.txt_codAlquiler_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_codAlquiler_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_codAlquiler_FACTURACION.Location = new System.Drawing.Point(225, 233);
+            this.txt_codAlquiler_FACTURACION.Name = "txt_codAlquiler_FACTURACION";
+            this.txt_codAlquiler_FACTURACION.Size = new System.Drawing.Size(137, 30);
+            this.txt_codAlquiler_FACTURACION.TabIndex = 44;
             // 
             // label7
             // 
@@ -220,14 +220,14 @@ namespace WindowsFormsApp1
             this.label7.TabIndex = 45;
             this.label7.Text = "Detalle";
             // 
-            // textBox6
+            // txt_detalle_FACTURACION
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(476, 74);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(224, 30);
-            this.textBox6.TabIndex = 46;
+            this.txt_detalle_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_detalle_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_detalle_FACTURACION.Location = new System.Drawing.Point(476, 74);
+            this.txt_detalle_FACTURACION.Name = "txt_detalle_FACTURACION";
+            this.txt_detalle_FACTURACION.Size = new System.Drawing.Size(224, 30);
+            this.txt_detalle_FACTURACION.TabIndex = 46;
             // 
             // label8
             // 
@@ -266,32 +266,32 @@ namespace WindowsFormsApp1
             this.label10.Text = "Fecha de pago";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // textBox7
+            // txt_total_FACTURACION
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(476, 111);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(224, 30);
-            this.textBox7.TabIndex = 50;
+            this.txt_total_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_total_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_total_FACTURACION.Location = new System.Drawing.Point(476, 111);
+            this.txt_total_FACTURACION.Name = "txt_total_FACTURACION";
+            this.txt_total_FACTURACION.Size = new System.Drawing.Size(224, 30);
+            this.txt_total_FACTURACION.TabIndex = 50;
             // 
-            // textBox8
+            // txt_metodoPago_FACTURACION
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(542, 152);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(158, 30);
-            this.textBox8.TabIndex = 51;
+            this.txt_metodoPago_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_metodoPago_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_metodoPago_FACTURACION.Location = new System.Drawing.Point(542, 152);
+            this.txt_metodoPago_FACTURACION.Name = "txt_metodoPago_FACTURACION";
+            this.txt_metodoPago_FACTURACION.Size = new System.Drawing.Size(158, 30);
+            this.txt_metodoPago_FACTURACION.TabIndex = 51;
             // 
-            // textBox9
+            // txt_fechaPago_FACTURACION
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(542, 194);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(158, 30);
-            this.textBox9.TabIndex = 52;
+            this.txt_fechaPago_FACTURACION.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_fechaPago_FACTURACION.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fechaPago_FACTURACION.Location = new System.Drawing.Point(542, 194);
+            this.txt_fechaPago_FACTURACION.Name = "txt_fechaPago_FACTURACION";
+            this.txt_fechaPago_FACTURACION.Size = new System.Drawing.Size(158, 30);
+            this.txt_fechaPago_FACTURACION.TabIndex = 52;
             // 
             // Form10
             // 
@@ -299,26 +299,26 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txt_fechaPago_FACTURACION);
+            this.Controls.Add(this.txt_metodoPago_FACTURACION);
+            this.Controls.Add(this.txt_total_FACTURACION);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txt_detalle_FACTURACION);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_codAlquiler_FACTURACION);
+            this.Controls.Add(this.txt_nit_FACTURACION);
+            this.Controls.Add(this.txt_nom_FACTURACION);
+            this.Controls.Add(this.TXT_noFac__FACTURACION);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BTN_regresar_FACTURACION);
+            this.Controls.Add(this.BTN_agregar_FACTURACION);
+            this.Controls.Add(this.BTN_modificar_FACTURACION);
+            this.Controls.Add(this.TXT_IdFactura_FACTURACION);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -334,25 +334,25 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_IdFactura_FACTURACION;
+        private System.Windows.Forms.Button BTN_modificar_FACTURACION;
+        private System.Windows.Forms.Button BTN_agregar_FACTURACION;
+        private System.Windows.Forms.Button BTN_regresar_FACTURACION;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TXT_noFac__FACTURACION;
+        private System.Windows.Forms.TextBox txt_nom_FACTURACION;
+        private System.Windows.Forms.TextBox txt_nit_FACTURACION;
+        private System.Windows.Forms.TextBox txt_codAlquiler_FACTURACION;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_detalle_FACTURACION;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txt_total_FACTURACION;
+        private System.Windows.Forms.TextBox txt_metodoPago_FACTURACION;
+        private System.Windows.Forms.TextBox txt_fechaPago_FACTURACION;
     }
 }

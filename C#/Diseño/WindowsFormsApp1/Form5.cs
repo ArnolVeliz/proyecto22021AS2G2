@@ -30,5 +30,10 @@ namespace WindowsFormsApp1
             Form formulario = new Form2();
             formulario.Show();
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

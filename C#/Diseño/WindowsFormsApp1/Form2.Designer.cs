@@ -30,31 +30,31 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.button3 = new System.Windows.Forms.Button();
+            this.BTN_abrir_RegistroAlquiler = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.BTN_abrir_CategoriaPelis = new System.Windows.Forms.Button();
+            this.BTN_abrir_usuarios = new System.Windows.Forms.Button();
+            this.BTN_abrir_Facturacion = new System.Windows.Forms.Button();
+            this.BTN_abrir_VideosRegis = new System.Windows.Forms.Button();
+            this.BTN_abrir_membresias = new System.Windows.Forms.Button();
+            this.BTN_abrir_MetPago = new System.Windows.Forms.Button();
+            this.BTN_abrir_Clientes = new System.Windows.Forms.Button();
+            this.BTN_abrir_RegisPagos = new System.Windows.Forms.Button();
+            this.BTN_abrir_TiposUsuario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button3
+            // BTN_abrir_RegistroAlquiler
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(139, 194);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(188, 55);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Registro de alquiler";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_abrir_RegistroAlquiler.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_RegistroAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_RegistroAlquiler.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_RegistroAlquiler.Location = new System.Drawing.Point(139, 194);
+            this.BTN_abrir_RegistroAlquiler.Name = "BTN_abrir_RegistroAlquiler";
+            this.BTN_abrir_RegistroAlquiler.Size = new System.Drawing.Size(188, 55);
+            this.BTN_abrir_RegistroAlquiler.TabIndex = 5;
+            this.BTN_abrir_RegistroAlquiler.Text = "Registro de alquiler";
+            this.BTN_abrir_RegistroAlquiler.UseVisualStyleBackColor = false;
+            this.BTN_abrir_RegistroAlquiler.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -65,122 +65,122 @@ namespace WindowsFormsApp1
             this.label1.Size = new System.Drawing.Size(0, 25);
             this.label1.TabIndex = 7;
             // 
-            // button1
+            // BTN_abrir_CategoriaPelis
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(427, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 65);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Categorias de peliculas";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BTN_abrir_CategoriaPelis.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_CategoriaPelis.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_CategoriaPelis.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_CategoriaPelis.Location = new System.Drawing.Point(427, 267);
+            this.BTN_abrir_CategoriaPelis.Name = "BTN_abrir_CategoriaPelis";
+            this.BTN_abrir_CategoriaPelis.Size = new System.Drawing.Size(188, 65);
+            this.BTN_abrir_CategoriaPelis.TabIndex = 8;
+            this.BTN_abrir_CategoriaPelis.Text = "Categorias de peliculas";
+            this.BTN_abrir_CategoriaPelis.UseVisualStyleBackColor = false;
+            this.BTN_abrir_CategoriaPelis.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // BTN_abrir_usuarios
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(139, 42);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 62);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Usuarios";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BTN_abrir_usuarios.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_usuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_usuarios.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_usuarios.Location = new System.Drawing.Point(139, 42);
+            this.BTN_abrir_usuarios.Name = "BTN_abrir_usuarios";
+            this.BTN_abrir_usuarios.Size = new System.Drawing.Size(188, 62);
+            this.BTN_abrir_usuarios.TabIndex = 9;
+            this.BTN_abrir_usuarios.Text = "Usuarios";
+            this.BTN_abrir_usuarios.UseVisualStyleBackColor = false;
+            this.BTN_abrir_usuarios.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // button4
+            // BTN_abrir_Facturacion
             // 
-            this.button4.BackColor = System.Drawing.Color.Gold;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(427, 194);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(188, 55);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Facturación";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.BTN_abrir_Facturacion.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_Facturacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_Facturacion.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_Facturacion.Location = new System.Drawing.Point(427, 194);
+            this.BTN_abrir_Facturacion.Name = "BTN_abrir_Facturacion";
+            this.BTN_abrir_Facturacion.Size = new System.Drawing.Size(188, 55);
+            this.BTN_abrir_Facturacion.TabIndex = 10;
+            this.BTN_abrir_Facturacion.Text = "Facturación";
+            this.BTN_abrir_Facturacion.UseVisualStyleBackColor = false;
+            this.BTN_abrir_Facturacion.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // BTN_abrir_VideosRegis
             // 
-            this.button5.BackColor = System.Drawing.Color.Gold;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(427, 117);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(188, 60);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "Videos registrados";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.BTN_abrir_VideosRegis.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_VideosRegis.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_VideosRegis.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_VideosRegis.Location = new System.Drawing.Point(427, 117);
+            this.BTN_abrir_VideosRegis.Name = "BTN_abrir_VideosRegis";
+            this.BTN_abrir_VideosRegis.Size = new System.Drawing.Size(188, 60);
+            this.BTN_abrir_VideosRegis.TabIndex = 11;
+            this.BTN_abrir_VideosRegis.Text = "Videos registrados";
+            this.BTN_abrir_VideosRegis.UseVisualStyleBackColor = false;
+            this.BTN_abrir_VideosRegis.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // BTN_abrir_membresias
             // 
-            this.button6.BackColor = System.Drawing.Color.Gold;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(139, 117);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(188, 60);
-            this.button6.TabIndex = 12;
-            this.button6.Text = "Membresías";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.BTN_abrir_membresias.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_membresias.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_membresias.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_membresias.Location = new System.Drawing.Point(139, 117);
+            this.BTN_abrir_membresias.Name = "BTN_abrir_membresias";
+            this.BTN_abrir_membresias.Size = new System.Drawing.Size(188, 60);
+            this.BTN_abrir_membresias.TabIndex = 12;
+            this.BTN_abrir_membresias.Text = "Membresías";
+            this.BTN_abrir_membresias.UseVisualStyleBackColor = false;
+            this.BTN_abrir_membresias.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // BTN_abrir_MetPago
             // 
-            this.button7.BackColor = System.Drawing.Color.Gold;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(139, 267);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(188, 55);
-            this.button7.TabIndex = 13;
-            this.button7.Text = "Metodos de pago";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.BTN_abrir_MetPago.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_MetPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_MetPago.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_MetPago.Location = new System.Drawing.Point(139, 267);
+            this.BTN_abrir_MetPago.Name = "BTN_abrir_MetPago";
+            this.BTN_abrir_MetPago.Size = new System.Drawing.Size(188, 55);
+            this.BTN_abrir_MetPago.TabIndex = 13;
+            this.BTN_abrir_MetPago.Text = "Metodos de pago";
+            this.BTN_abrir_MetPago.UseVisualStyleBackColor = false;
+            this.BTN_abrir_MetPago.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // BTN_abrir_Clientes
             // 
-            this.button8.BackColor = System.Drawing.Color.Gold;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(427, 42);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(188, 62);
-            this.button8.TabIndex = 14;
-            this.button8.Text = "Clientes";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.BTN_abrir_Clientes.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_Clientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_Clientes.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_Clientes.Location = new System.Drawing.Point(427, 42);
+            this.BTN_abrir_Clientes.Name = "BTN_abrir_Clientes";
+            this.BTN_abrir_Clientes.Size = new System.Drawing.Size(188, 62);
+            this.BTN_abrir_Clientes.TabIndex = 14;
+            this.BTN_abrir_Clientes.Text = "Clientes";
+            this.BTN_abrir_Clientes.UseVisualStyleBackColor = false;
+            this.BTN_abrir_Clientes.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // BTN_abrir_RegisPagos
             // 
-            this.button9.BackColor = System.Drawing.Color.Gold;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(139, 341);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(188, 62);
-            this.button9.TabIndex = 15;
-            this.button9.Text = "Registro de pagos";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.BTN_abrir_RegisPagos.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_RegisPagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_RegisPagos.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_RegisPagos.Location = new System.Drawing.Point(139, 341);
+            this.BTN_abrir_RegisPagos.Name = "BTN_abrir_RegisPagos";
+            this.BTN_abrir_RegisPagos.Size = new System.Drawing.Size(188, 62);
+            this.BTN_abrir_RegisPagos.TabIndex = 15;
+            this.BTN_abrir_RegisPagos.Text = "Registro de pagos";
+            this.BTN_abrir_RegisPagos.UseVisualStyleBackColor = false;
+            this.BTN_abrir_RegisPagos.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button10
+            // BTN_abrir_TiposUsuario
             // 
-            this.button10.BackColor = System.Drawing.Color.Gold;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(427, 341);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(188, 62);
-            this.button10.TabIndex = 16;
-            this.button10.Text = "Tipos de usuario";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.BTN_abrir_TiposUsuario.BackColor = System.Drawing.Color.Gold;
+            this.BTN_abrir_TiposUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_abrir_TiposUsuario.ForeColor = System.Drawing.Color.Black;
+            this.BTN_abrir_TiposUsuario.Location = new System.Drawing.Point(427, 341);
+            this.BTN_abrir_TiposUsuario.Name = "BTN_abrir_TiposUsuario";
+            this.BTN_abrir_TiposUsuario.Size = new System.Drawing.Size(188, 62);
+            this.BTN_abrir_TiposUsuario.TabIndex = 16;
+            this.BTN_abrir_TiposUsuario.Text = "Tipos de usuario";
+            this.BTN_abrir_TiposUsuario.UseVisualStyleBackColor = false;
+            this.BTN_abrir_TiposUsuario.Click += new System.EventHandler(this.button10_Click);
             // 
             // Form2
             // 
@@ -188,17 +188,17 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BTN_abrir_TiposUsuario);
+            this.Controls.Add(this.BTN_abrir_RegisPagos);
+            this.Controls.Add(this.BTN_abrir_Clientes);
+            this.Controls.Add(this.BTN_abrir_MetPago);
+            this.Controls.Add(this.BTN_abrir_membresias);
+            this.Controls.Add(this.BTN_abrir_VideosRegis);
+            this.Controls.Add(this.BTN_abrir_Facturacion);
+            this.Controls.Add(this.BTN_abrir_usuarios);
+            this.Controls.Add(this.BTN_abrir_CategoriaPelis);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BTN_abrir_RegistroAlquiler);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Menú";
@@ -209,16 +209,16 @@ namespace WindowsFormsApp1
         }
 
         #endregion
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BTN_abrir_RegistroAlquiler;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button BTN_abrir_CategoriaPelis;
+        private System.Windows.Forms.Button BTN_abrir_usuarios;
+        private System.Windows.Forms.Button BTN_abrir_Facturacion;
+        private System.Windows.Forms.Button BTN_abrir_VideosRegis;
+        private System.Windows.Forms.Button BTN_abrir_membresias;
+        private System.Windows.Forms.Button BTN_abrir_MetPago;
+        private System.Windows.Forms.Button BTN_abrir_Clientes;
+        private System.Windows.Forms.Button BTN_abrir_RegisPagos;
+        private System.Windows.Forms.Button BTN_abrir_TiposUsuario;
     }
 }

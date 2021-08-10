@@ -36,22 +36,22 @@ namespace WindowsFormsApp1
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TXT_idRegistro_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_alquiler_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_pagototal_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_abono_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_vuelto_REGISTROPAGO = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_numeroTarjeta_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_fechaExp_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_titular_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.TXT_efectivo_REGISTROPAGO = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_REGISTROPAGO = new System.Windows.Forms.Button();
+            this.BTN_agregar_REGISTROPAGO = new System.Windows.Forms.Button();
+            this.BTN_regresar_REGISTROPAGO = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -126,50 +126,50 @@ namespace WindowsFormsApp1
             this.label6.TabIndex = 13;
             this.label6.Text = "Vuelto";
             // 
-            // textBox1
+            // TXT_idRegistro_REGISTROPAGO
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(180, 59);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 14;
+            this.TXT_idRegistro_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idRegistro_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idRegistro_REGISTROPAGO.Location = new System.Drawing.Point(180, 59);
+            this.TXT_idRegistro_REGISTROPAGO.Name = "TXT_idRegistro_REGISTROPAGO";
+            this.TXT_idRegistro_REGISTROPAGO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idRegistro_REGISTROPAGO.TabIndex = 14;
             // 
-            // textBox2
+            // TXT_alquiler_REGISTROPAGO
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(180, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 30);
-            this.textBox2.TabIndex = 15;
+            this.TXT_alquiler_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_alquiler_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_alquiler_REGISTROPAGO.Location = new System.Drawing.Point(180, 98);
+            this.TXT_alquiler_REGISTROPAGO.Name = "TXT_alquiler_REGISTROPAGO";
+            this.TXT_alquiler_REGISTROPAGO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_alquiler_REGISTROPAGO.TabIndex = 15;
             // 
-            // textBox3
+            // TXT_pagototal_REGISTROPAGO
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(180, 138);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 16;
+            this.TXT_pagototal_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_pagototal_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_pagototal_REGISTROPAGO.Location = new System.Drawing.Point(180, 138);
+            this.TXT_pagototal_REGISTROPAGO.Name = "TXT_pagototal_REGISTROPAGO";
+            this.TXT_pagototal_REGISTROPAGO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_pagototal_REGISTROPAGO.TabIndex = 16;
             // 
-            // textBox4
+            // TXT_abono_REGISTROPAGO
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(180, 180);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 30);
-            this.textBox4.TabIndex = 17;
+            this.TXT_abono_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_abono_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_abono_REGISTROPAGO.Location = new System.Drawing.Point(180, 180);
+            this.TXT_abono_REGISTROPAGO.Name = "TXT_abono_REGISTROPAGO";
+            this.TXT_abono_REGISTROPAGO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_abono_REGISTROPAGO.TabIndex = 17;
             // 
-            // textBox5
+            // TXT_vuelto_REGISTROPAGO
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(180, 223);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(184, 30);
-            this.textBox5.TabIndex = 18;
+            this.TXT_vuelto_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_vuelto_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_vuelto_REGISTROPAGO.Location = new System.Drawing.Point(180, 223);
+            this.TXT_vuelto_REGISTROPAGO.Name = "TXT_vuelto_REGISTROPAGO";
+            this.TXT_vuelto_REGISTROPAGO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_vuelto_REGISTROPAGO.TabIndex = 18;
             // 
             // label7
             // 
@@ -220,78 +220,78 @@ namespace WindowsFormsApp1
             this.label10.TabIndex = 22;
             this.label10.Text = "Efectivo";
             // 
-            // textBox6
+            // TXT_numeroTarjeta_REGISTROPAGO
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(571, 59);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(170, 30);
-            this.textBox6.TabIndex = 23;
+            this.TXT_numeroTarjeta_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_numeroTarjeta_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_numeroTarjeta_REGISTROPAGO.Location = new System.Drawing.Point(571, 59);
+            this.TXT_numeroTarjeta_REGISTROPAGO.Name = "TXT_numeroTarjeta_REGISTROPAGO";
+            this.TXT_numeroTarjeta_REGISTROPAGO.Size = new System.Drawing.Size(170, 30);
+            this.TXT_numeroTarjeta_REGISTROPAGO.TabIndex = 23;
             // 
-            // textBox7
+            // TXT_fechaExp_REGISTROPAGO
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(571, 98);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(170, 30);
-            this.textBox7.TabIndex = 24;
+            this.TXT_fechaExp_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_fechaExp_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_fechaExp_REGISTROPAGO.Location = new System.Drawing.Point(571, 98);
+            this.TXT_fechaExp_REGISTROPAGO.Name = "TXT_fechaExp_REGISTROPAGO";
+            this.TXT_fechaExp_REGISTROPAGO.Size = new System.Drawing.Size(170, 30);
+            this.TXT_fechaExp_REGISTROPAGO.TabIndex = 24;
             // 
-            // textBox8
+            // TXT_titular_REGISTROPAGO
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(481, 141);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(184, 30);
-            this.textBox8.TabIndex = 25;
+            this.TXT_titular_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_titular_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_titular_REGISTROPAGO.Location = new System.Drawing.Point(481, 141);
+            this.TXT_titular_REGISTROPAGO.Name = "TXT_titular_REGISTROPAGO";
+            this.TXT_titular_REGISTROPAGO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_titular_REGISTROPAGO.TabIndex = 25;
             // 
-            // textBox9
+            // TXT_efectivo_REGISTROPAGO
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(481, 180);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(184, 30);
-            this.textBox9.TabIndex = 26;
+            this.TXT_efectivo_REGISTROPAGO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_efectivo_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_efectivo_REGISTROPAGO.Location = new System.Drawing.Point(481, 180);
+            this.TXT_efectivo_REGISTROPAGO.Name = "TXT_efectivo_REGISTROPAGO";
+            this.TXT_efectivo_REGISTROPAGO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_efectivo_REGISTROPAGO.TabIndex = 26;
             // 
-            // button1
+            // BTN_modificar_REGISTROPAGO
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(202, 296);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_REGISTROPAGO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_REGISTROPAGO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_REGISTROPAGO.Location = new System.Drawing.Point(202, 296);
+            this.BTN_modificar_REGISTROPAGO.Name = "BTN_modificar_REGISTROPAGO";
+            this.BTN_modificar_REGISTROPAGO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_REGISTROPAGO.TabIndex = 27;
+            this.BTN_modificar_REGISTROPAGO.Text = "Modificar";
+            this.BTN_modificar_REGISTROPAGO.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // BTN_agregar_REGISTROPAGO
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(352, 296);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 32;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BTN_agregar_REGISTROPAGO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_agregar_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_agregar_REGISTROPAGO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_agregar_REGISTROPAGO.Location = new System.Drawing.Point(352, 296);
+            this.BTN_agregar_REGISTROPAGO.Name = "BTN_agregar_REGISTROPAGO";
+            this.BTN_agregar_REGISTROPAGO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_agregar_REGISTROPAGO.TabIndex = 32;
+            this.BTN_agregar_REGISTROPAGO.Text = "Agregar";
+            this.BTN_agregar_REGISTROPAGO.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BTN_regresar_REGISTROPAGO
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(502, 296);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 33;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_regresar_REGISTROPAGO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_regresar_REGISTROPAGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_regresar_REGISTROPAGO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_regresar_REGISTROPAGO.Location = new System.Drawing.Point(502, 296);
+            this.BTN_regresar_REGISTROPAGO.Name = "BTN_regresar_REGISTROPAGO";
+            this.BTN_regresar_REGISTROPAGO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_regresar_REGISTROPAGO.TabIndex = 33;
+            this.BTN_regresar_REGISTROPAGO.Text = "Regresar";
+            this.BTN_regresar_REGISTROPAGO.UseVisualStyleBackColor = false;
+            this.BTN_regresar_REGISTROPAGO.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form7
             // 
@@ -299,22 +299,22 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.BTN_regresar_REGISTROPAGO);
+            this.Controls.Add(this.BTN_agregar_REGISTROPAGO);
+            this.Controls.Add(this.BTN_modificar_REGISTROPAGO);
+            this.Controls.Add(this.TXT_efectivo_REGISTROPAGO);
+            this.Controls.Add(this.TXT_titular_REGISTROPAGO);
+            this.Controls.Add(this.TXT_fechaExp_REGISTROPAGO);
+            this.Controls.Add(this.TXT_numeroTarjeta_REGISTROPAGO);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TXT_vuelto_REGISTROPAGO);
+            this.Controls.Add(this.TXT_abono_REGISTROPAGO);
+            this.Controls.Add(this.TXT_pagototal_REGISTROPAGO);
+            this.Controls.Add(this.TXT_alquiler_REGISTROPAGO);
+            this.Controls.Add(this.TXT_idRegistro_REGISTROPAGO);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -338,21 +338,21 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TXT_idRegistro_REGISTROPAGO;
+        private System.Windows.Forms.TextBox TXT_alquiler_REGISTROPAGO;
+        private System.Windows.Forms.TextBox TXT_pagototal_REGISTROPAGO;
+        private System.Windows.Forms.TextBox TXT_abono_REGISTROPAGO;
+        private System.Windows.Forms.TextBox TXT_vuelto_REGISTROPAGO;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_numeroTarjeta_REGISTROPAGO;
+        private System.Windows.Forms.TextBox TXT_fechaExp_REGISTROPAGO;
+        private System.Windows.Forms.TextBox TXT_titular_REGISTROPAGO;
+        private System.Windows.Forms.TextBox TXT_efectivo_REGISTROPAGO;
+        private System.Windows.Forms.Button BTN_modificar_REGISTROPAGO;
+        private System.Windows.Forms.Button BTN_agregar_REGISTROPAGO;
+        private System.Windows.Forms.Button BTN_regresar_REGISTROPAGO;
     }
 }
