@@ -32,32 +32,32 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_idUsuario = new System.Windows.Forms.TextBox();
+            this.BTN_modificarUSUARIO = new System.Windows.Forms.Button();
+            this.BTN_agregarUSUARIO = new System.Windows.Forms.Button();
+            this.BTN_regresarUSUARIO = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.TXT_nomUsuario = new System.Windows.Forms.TextBox();
+            this.TXT_apeUSUARIO = new System.Windows.Forms.TextBox();
+            this.TXT_puestoUSUARIO = new System.Windows.Forms.TextBox();
+            this.TXT_dpiUSUARIO = new System.Windows.Forms.TextBox();
+            this.TXT_GeneroUSUARIO = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.TXT_fechaUSUARIO = new System.Windows.Forms.TextBox();
+            this.TXT_tipoUsuario = new System.Windows.Forms.TextBox();
+            this.txt_telUSUARIO = new System.Windows.Forms.TextBox();
+            this.txt_EstadoCivilUSUARIO = new System.Windows.Forms.TextBox();
+            this.txt_correoUSUARIO = new System.Windows.Forms.TextBox();
+            this.txtContraUSUARIO = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -84,51 +84,53 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 8;
             this.label2.Text = "ID de usuario";
             // 
-            // textBox1
+            // TXT_idUsuario
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(183, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 9;
+            this.TXT_idUsuario.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idUsuario.Location = new System.Drawing.Point(183, 82);
+            this.TXT_idUsuario.Name = "TXT_idUsuario";
+            this.TXT_idUsuario.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idUsuario.TabIndex = 9;
             // 
-            // button1
+            // BTN_modificarUSUARIO
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(203, 338);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificarUSUARIO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificarUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificarUSUARIO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificarUSUARIO.Location = new System.Drawing.Point(203, 338);
+            this.BTN_modificarUSUARIO.Name = "BTN_modificarUSUARIO";
+            this.BTN_modificarUSUARIO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificarUSUARIO.TabIndex = 10;
+            this.BTN_modificarUSUARIO.Text = "Modificar";
+            this.BTN_modificarUSUARIO.UseVisualStyleBackColor = false;
+            this.BTN_modificarUSUARIO.Click += new System.EventHandler(this.BTN_modificarUSUARIO_Click);
             // 
-            // button2
+            // BTN_agregarUSUARIO
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(363, 338);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 32;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BTN_agregarUSUARIO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_agregarUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_agregarUSUARIO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_agregarUSUARIO.Location = new System.Drawing.Point(363, 338);
+            this.BTN_agregarUSUARIO.Name = "BTN_agregarUSUARIO";
+            this.BTN_agregarUSUARIO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_agregarUSUARIO.TabIndex = 32;
+            this.BTN_agregarUSUARIO.Text = "Agregar";
+            this.BTN_agregarUSUARIO.UseVisualStyleBackColor = false;
+            this.BTN_agregarUSUARIO.Click += new System.EventHandler(this.BTN_agregarUSUARIO_Click);
             // 
-            // button3
+            // BTN_regresarUSUARIO
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(525, 338);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 33;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_regresarUSUARIO.BackColor = System.Drawing.Color.Gold;
+            this.BTN_regresarUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_regresarUSUARIO.ForeColor = System.Drawing.Color.Black;
+            this.BTN_regresarUSUARIO.Location = new System.Drawing.Point(525, 338);
+            this.BTN_regresarUSUARIO.Name = "BTN_regresarUSUARIO";
+            this.BTN_regresarUSUARIO.Size = new System.Drawing.Size(118, 48);
+            this.BTN_regresarUSUARIO.TabIndex = 33;
+            this.BTN_regresarUSUARIO.Text = "Regresar";
+            this.BTN_regresarUSUARIO.UseVisualStyleBackColor = false;
+            this.BTN_regresarUSUARIO.Click += new System.EventHandler(this.Button3_Click);
             // 
             // label3
             // 
@@ -190,50 +192,50 @@ namespace WindowsFormsApp1
             this.label7.TabIndex = 38;
             this.label7.Text = "Genero";
             // 
-            // textBox2
+            // TXT_nomUsuario
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(137, 122);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 30);
-            this.textBox2.TabIndex = 39;
+            this.TXT_nomUsuario.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_nomUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_nomUsuario.Location = new System.Drawing.Point(137, 122);
+            this.TXT_nomUsuario.Name = "TXT_nomUsuario";
+            this.TXT_nomUsuario.Size = new System.Drawing.Size(184, 30);
+            this.TXT_nomUsuario.TabIndex = 39;
             // 
-            // textBox3
+            // TXT_apeUSUARIO
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(138, 162);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 40;
+            this.TXT_apeUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_apeUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_apeUSUARIO.Location = new System.Drawing.Point(138, 162);
+            this.TXT_apeUSUARIO.Name = "TXT_apeUSUARIO";
+            this.TXT_apeUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_apeUSUARIO.TabIndex = 40;
             // 
-            // textBox4
+            // TXT_puestoUSUARIO
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(138, 204);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 30);
-            this.textBox4.TabIndex = 41;
+            this.TXT_puestoUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_puestoUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_puestoUSUARIO.Location = new System.Drawing.Point(138, 204);
+            this.TXT_puestoUSUARIO.Name = "TXT_puestoUSUARIO";
+            this.TXT_puestoUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_puestoUSUARIO.TabIndex = 41;
             // 
-            // textBox5
+            // TXT_dpiUSUARIO
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(138, 245);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(184, 30);
-            this.textBox5.TabIndex = 42;
+            this.TXT_dpiUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_dpiUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_dpiUSUARIO.Location = new System.Drawing.Point(138, 245);
+            this.TXT_dpiUSUARIO.Name = "TXT_dpiUSUARIO";
+            this.TXT_dpiUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_dpiUSUARIO.TabIndex = 42;
             // 
-            // textBox6
+            // TXT_GeneroUSUARIO
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(138, 286);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(184, 30);
-            this.textBox6.TabIndex = 43;
+            this.TXT_GeneroUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_GeneroUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_GeneroUSUARIO.Location = new System.Drawing.Point(138, 286);
+            this.TXT_GeneroUSUARIO.Name = "TXT_GeneroUSUARIO";
+            this.TXT_GeneroUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.TXT_GeneroUSUARIO.TabIndex = 43;
             // 
             // label8
             // 
@@ -307,59 +309,59 @@ namespace WindowsFormsApp1
             this.label13.TabIndex = 49;
             this.label13.Text = "Contraseña";
             // 
-            // textBox7
+            // TXT_fechaUSUARIO
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(604, 82);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(142, 30);
-            this.textBox7.TabIndex = 50;
+            this.TXT_fechaUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_fechaUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_fechaUSUARIO.Location = new System.Drawing.Point(604, 82);
+            this.TXT_fechaUSUARIO.Name = "TXT_fechaUSUARIO";
+            this.TXT_fechaUSUARIO.Size = new System.Drawing.Size(142, 30);
+            this.TXT_fechaUSUARIO.TabIndex = 50;
             // 
-            // textBox8
+            // TXT_tipoUsuario
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(562, 120);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(184, 30);
-            this.textBox8.TabIndex = 51;
+            this.TXT_tipoUsuario.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_tipoUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_tipoUsuario.Location = new System.Drawing.Point(562, 120);
+            this.TXT_tipoUsuario.Name = "TXT_tipoUsuario";
+            this.TXT_tipoUsuario.Size = new System.Drawing.Size(184, 30);
+            this.TXT_tipoUsuario.TabIndex = 51;
             // 
-            // textBox9
+            // txt_telUSUARIO
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(525, 162);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(184, 30);
-            this.textBox9.TabIndex = 52;
+            this.txt_telUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_telUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_telUSUARIO.Location = new System.Drawing.Point(525, 162);
+            this.txt_telUSUARIO.Name = "txt_telUSUARIO";
+            this.txt_telUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.txt_telUSUARIO.TabIndex = 52;
             // 
-            // textBox10
+            // txt_EstadoCivilUSUARIO
             // 
-            this.textBox10.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(525, 204);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(184, 30);
-            this.textBox10.TabIndex = 53;
+            this.txt_EstadoCivilUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_EstadoCivilUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_EstadoCivilUSUARIO.Location = new System.Drawing.Point(525, 204);
+            this.txt_EstadoCivilUSUARIO.Name = "txt_EstadoCivilUSUARIO";
+            this.txt_EstadoCivilUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.txt_EstadoCivilUSUARIO.TabIndex = 53;
             // 
-            // textBox11
+            // txt_correoUSUARIO
             // 
-            this.textBox11.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(525, 245);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(184, 30);
-            this.textBox11.TabIndex = 54;
+            this.txt_correoUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_correoUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_correoUSUARIO.Location = new System.Drawing.Point(525, 245);
+            this.txt_correoUSUARIO.Name = "txt_correoUSUARIO";
+            this.txt_correoUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.txt_correoUSUARIO.TabIndex = 54;
             // 
-            // textBox12
+            // txtContraUSUARIO
             // 
-            this.textBox12.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(525, 286);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(184, 30);
-            this.textBox12.TabIndex = 55;
+            this.txtContraUSUARIO.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtContraUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraUSUARIO.Location = new System.Drawing.Point(525, 286);
+            this.txtContraUSUARIO.Name = "txtContraUSUARIO";
+            this.txtContraUSUARIO.Size = new System.Drawing.Size(184, 30);
+            this.txtContraUSUARIO.TabIndex = 55;
             // 
             // Form3
             // 
@@ -367,32 +369,32 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtContraUSUARIO);
+            this.Controls.Add(this.txt_correoUSUARIO);
+            this.Controls.Add(this.txt_EstadoCivilUSUARIO);
+            this.Controls.Add(this.txt_telUSUARIO);
+            this.Controls.Add(this.TXT_tipoUsuario);
+            this.Controls.Add(this.TXT_fechaUSUARIO);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TXT_GeneroUSUARIO);
+            this.Controls.Add(this.TXT_dpiUSUARIO);
+            this.Controls.Add(this.TXT_puestoUSUARIO);
+            this.Controls.Add(this.TXT_apeUSUARIO);
+            this.Controls.Add(this.TXT_nomUsuario);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BTN_regresarUSUARIO);
+            this.Controls.Add(this.BTN_agregarUSUARIO);
+            this.Controls.Add(this.BTN_modificarUSUARIO);
+            this.Controls.Add(this.TXT_idUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -408,31 +410,31 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_idUsuario;
+        private System.Windows.Forms.Button BTN_modificarUSUARIO;
+        private System.Windows.Forms.Button BTN_agregarUSUARIO;
+        private System.Windows.Forms.Button BTN_regresarUSUARIO;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox TXT_nomUsuario;
+        private System.Windows.Forms.TextBox TXT_apeUSUARIO;
+        private System.Windows.Forms.TextBox TXT_puestoUSUARIO;
+        private System.Windows.Forms.TextBox TXT_dpiUSUARIO;
+        private System.Windows.Forms.TextBox TXT_GeneroUSUARIO;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox TXT_fechaUSUARIO;
+        private System.Windows.Forms.TextBox TXT_tipoUsuario;
+        private System.Windows.Forms.TextBox txt_telUSUARIO;
+        private System.Windows.Forms.TextBox txt_EstadoCivilUSUARIO;
+        private System.Windows.Forms.TextBox txt_correoUSUARIO;
+        private System.Windows.Forms.TextBox txtContraUSUARIO;
     }
 }

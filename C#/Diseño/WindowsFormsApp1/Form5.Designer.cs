@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TXT_id_RegistroAlquiler = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -43,19 +43,19 @@ namespace WindowsFormsApp1
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_IDvideo_RegistroAlquiler = new System.Windows.Forms.TextBox();
+            this.TXT_idcliente_RegistroAlquiler = new System.Windows.Forms.TextBox();
+            this.txt_Fecha_RegistroAlquiler = new System.Windows.Forms.TextBox();
+            this.txt_monto_RegistroAlquiler = new System.Windows.Forms.TextBox();
+            this.TXT_idusuario_RegistroAlquiler = new System.Windows.Forms.TextBox();
+            this.TXT_descuento_MembresiaREGISTROALQUILER = new System.Windows.Forms.TextBox();
+            this.TXT_descuento_AdicionalREGISTROALQUILER = new System.Windows.Forms.TextBox();
+            this.TXT_DiasAtraso_REGISTROALQUILER = new System.Windows.Forms.TextBox();
+            this.TXT_subtotal_REGISTROALQUILER = new System.Windows.Forms.TextBox();
+            this.TXT_total_REGISTROALQUILER = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_REGISTROALQUILER = new System.Windows.Forms.Button();
+            this.BTN_agregar_REGISTROALQUILER = new System.Windows.Forms.Button();
+            this.BTN_regresar_REGISTROALQUILER = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,14 +82,14 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 9;
             this.label2.Text = "ID de registro";
             // 
-            // textBox1
+            // TXT_id_RegistroAlquiler
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(173, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 10;
+            this.TXT_id_RegistroAlquiler.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_id_RegistroAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_id_RegistroAlquiler.Location = new System.Drawing.Point(173, 63);
+            this.TXT_id_RegistroAlquiler.Name = "TXT_id_RegistroAlquiler";
+            this.TXT_id_RegistroAlquiler.Size = new System.Drawing.Size(184, 30);
+            this.TXT_id_RegistroAlquiler.TabIndex = 10;
             // 
             // label3
             // 
@@ -211,132 +211,133 @@ namespace WindowsFormsApp1
             this.label12.TabIndex = 20;
             this.label12.Text = "Días de atraso";
             // 
-            // textBox2
+            // TXT_IDvideo_RegistroAlquiler
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(173, 104);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 30);
-            this.textBox2.TabIndex = 21;
+            this.TXT_IDvideo_RegistroAlquiler.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_IDvideo_RegistroAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_IDvideo_RegistroAlquiler.Location = new System.Drawing.Point(173, 104);
+            this.TXT_IDvideo_RegistroAlquiler.Name = "TXT_IDvideo_RegistroAlquiler";
+            this.TXT_IDvideo_RegistroAlquiler.Size = new System.Drawing.Size(184, 30);
+            this.TXT_IDvideo_RegistroAlquiler.TabIndex = 21;
             // 
-            // textBox3
+            // TXT_idcliente_RegistroAlquiler
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(174, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 22;
+            this.TXT_idcliente_RegistroAlquiler.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idcliente_RegistroAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idcliente_RegistroAlquiler.Location = new System.Drawing.Point(174, 143);
+            this.TXT_idcliente_RegistroAlquiler.Name = "TXT_idcliente_RegistroAlquiler";
+            this.TXT_idcliente_RegistroAlquiler.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idcliente_RegistroAlquiler.TabIndex = 22;
             // 
-            // textBox4
+            // txt_Fecha_RegistroAlquiler
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(218, 187);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(140, 30);
-            this.textBox4.TabIndex = 23;
+            this.txt_Fecha_RegistroAlquiler.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_Fecha_RegistroAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Fecha_RegistroAlquiler.Location = new System.Drawing.Point(218, 187);
+            this.txt_Fecha_RegistroAlquiler.Name = "txt_Fecha_RegistroAlquiler";
+            this.txt_Fecha_RegistroAlquiler.Size = new System.Drawing.Size(140, 30);
+            this.txt_Fecha_RegistroAlquiler.TabIndex = 23;
+            this.txt_Fecha_RegistroAlquiler.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox5
+            // txt_monto_RegistroAlquiler
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(173, 223);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(184, 30);
-            this.textBox5.TabIndex = 24;
+            this.txt_monto_RegistroAlquiler.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_monto_RegistroAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_monto_RegistroAlquiler.Location = new System.Drawing.Point(173, 223);
+            this.txt_monto_RegistroAlquiler.Name = "txt_monto_RegistroAlquiler";
+            this.txt_monto_RegistroAlquiler.Size = new System.Drawing.Size(184, 30);
+            this.txt_monto_RegistroAlquiler.TabIndex = 24;
             // 
-            // textBox6
+            // TXT_idusuario_RegistroAlquiler
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(174, 257);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(184, 30);
-            this.textBox6.TabIndex = 25;
+            this.TXT_idusuario_RegistroAlquiler.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idusuario_RegistroAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idusuario_RegistroAlquiler.Location = new System.Drawing.Point(174, 257);
+            this.TXT_idusuario_RegistroAlquiler.Name = "TXT_idusuario_RegistroAlquiler";
+            this.TXT_idusuario_RegistroAlquiler.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idusuario_RegistroAlquiler.TabIndex = 25;
             // 
-            // textBox7
+            // TXT_descuento_MembresiaREGISTROALQUILER
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(616, 66);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(147, 30);
-            this.textBox7.TabIndex = 26;
+            this.TXT_descuento_MembresiaREGISTROALQUILER.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_descuento_MembresiaREGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_descuento_MembresiaREGISTROALQUILER.Location = new System.Drawing.Point(616, 66);
+            this.TXT_descuento_MembresiaREGISTROALQUILER.Name = "TXT_descuento_MembresiaREGISTROALQUILER";
+            this.TXT_descuento_MembresiaREGISTROALQUILER.Size = new System.Drawing.Size(147, 30);
+            this.TXT_descuento_MembresiaREGISTROALQUILER.TabIndex = 26;
             // 
-            // textBox8
+            // TXT_descuento_AdicionalREGISTROALQUILER
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(579, 106);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(184, 30);
-            this.textBox8.TabIndex = 27;
+            this.TXT_descuento_AdicionalREGISTROALQUILER.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_descuento_AdicionalREGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_descuento_AdicionalREGISTROALQUILER.Location = new System.Drawing.Point(579, 106);
+            this.TXT_descuento_AdicionalREGISTROALQUILER.Name = "TXT_descuento_AdicionalREGISTROALQUILER";
+            this.TXT_descuento_AdicionalREGISTROALQUILER.Size = new System.Drawing.Size(184, 30);
+            this.TXT_descuento_AdicionalREGISTROALQUILER.TabIndex = 27;
             // 
-            // textBox9
+            // TXT_DiasAtraso_REGISTROALQUILER
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(528, 223);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(175, 30);
-            this.textBox9.TabIndex = 28;
+            this.TXT_DiasAtraso_REGISTROALQUILER.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_DiasAtraso_REGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_DiasAtraso_REGISTROALQUILER.Location = new System.Drawing.Point(528, 223);
+            this.TXT_DiasAtraso_REGISTROALQUILER.Name = "TXT_DiasAtraso_REGISTROALQUILER";
+            this.TXT_DiasAtraso_REGISTROALQUILER.Size = new System.Drawing.Size(175, 30);
+            this.TXT_DiasAtraso_REGISTROALQUILER.TabIndex = 28;
             // 
-            // textBox10
+            // TXT_subtotal_REGISTROALQUILER
             // 
-            this.textBox10.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(485, 148);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(184, 30);
-            this.textBox10.TabIndex = 29;
+            this.TXT_subtotal_REGISTROALQUILER.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_subtotal_REGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_subtotal_REGISTROALQUILER.Location = new System.Drawing.Point(485, 148);
+            this.TXT_subtotal_REGISTROALQUILER.Name = "TXT_subtotal_REGISTROALQUILER";
+            this.TXT_subtotal_REGISTROALQUILER.Size = new System.Drawing.Size(184, 30);
+            this.TXT_subtotal_REGISTROALQUILER.TabIndex = 29;
             // 
-            // textBox11
+            // TXT_total_REGISTROALQUILER
             // 
-            this.textBox11.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(485, 190);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(184, 30);
-            this.textBox11.TabIndex = 30;
+            this.TXT_total_REGISTROALQUILER.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_total_REGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_total_REGISTROALQUILER.Location = new System.Drawing.Point(485, 190);
+            this.TXT_total_REGISTROALQUILER.Name = "TXT_total_REGISTROALQUILER";
+            this.TXT_total_REGISTROALQUILER.Size = new System.Drawing.Size(184, 30);
+            this.TXT_total_REGISTROALQUILER.TabIndex = 30;
             // 
-            // button1
+            // BTN_modificar_REGISTROALQUILER
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(202, 317);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_REGISTROALQUILER.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_REGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_REGISTROALQUILER.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_REGISTROALQUILER.Location = new System.Drawing.Point(202, 317);
+            this.BTN_modificar_REGISTROALQUILER.Name = "BTN_modificar_REGISTROALQUILER";
+            this.BTN_modificar_REGISTROALQUILER.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_REGISTROALQUILER.TabIndex = 31;
+            this.BTN_modificar_REGISTROALQUILER.Text = "Modificar";
+            this.BTN_modificar_REGISTROALQUILER.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // BTN_agregar_REGISTROALQUILER
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(351, 317);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 32;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BTN_agregar_REGISTROALQUILER.BackColor = System.Drawing.Color.Gold;
+            this.BTN_agregar_REGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_agregar_REGISTROALQUILER.ForeColor = System.Drawing.Color.Black;
+            this.BTN_agregar_REGISTROALQUILER.Location = new System.Drawing.Point(351, 317);
+            this.BTN_agregar_REGISTROALQUILER.Name = "BTN_agregar_REGISTROALQUILER";
+            this.BTN_agregar_REGISTROALQUILER.Size = new System.Drawing.Size(118, 48);
+            this.BTN_agregar_REGISTROALQUILER.TabIndex = 32;
+            this.BTN_agregar_REGISTROALQUILER.Text = "Agregar";
+            this.BTN_agregar_REGISTROALQUILER.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BTN_regresar_REGISTROALQUILER
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(501, 317);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 33;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_regresar_REGISTROALQUILER.BackColor = System.Drawing.Color.Gold;
+            this.BTN_regresar_REGISTROALQUILER.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_regresar_REGISTROALQUILER.ForeColor = System.Drawing.Color.Black;
+            this.BTN_regresar_REGISTROALQUILER.Location = new System.Drawing.Point(501, 317);
+            this.BTN_regresar_REGISTROALQUILER.Name = "BTN_regresar_REGISTROALQUILER";
+            this.BTN_regresar_REGISTROALQUILER.Size = new System.Drawing.Size(118, 48);
+            this.BTN_regresar_REGISTROALQUILER.TabIndex = 33;
+            this.BTN_regresar_REGISTROALQUILER.Text = "Regresar";
+            this.BTN_regresar_REGISTROALQUILER.UseVisualStyleBackColor = false;
+            this.BTN_regresar_REGISTROALQUILER.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form5
             // 
@@ -344,19 +345,19 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.BTN_regresar_REGISTROALQUILER);
+            this.Controls.Add(this.BTN_agregar_REGISTROALQUILER);
+            this.Controls.Add(this.BTN_modificar_REGISTROALQUILER);
+            this.Controls.Add(this.TXT_total_REGISTROALQUILER);
+            this.Controls.Add(this.TXT_subtotal_REGISTROALQUILER);
+            this.Controls.Add(this.TXT_DiasAtraso_REGISTROALQUILER);
+            this.Controls.Add(this.TXT_descuento_AdicionalREGISTROALQUILER);
+            this.Controls.Add(this.TXT_descuento_MembresiaREGISTROALQUILER);
+            this.Controls.Add(this.TXT_idusuario_RegistroAlquiler);
+            this.Controls.Add(this.txt_monto_RegistroAlquiler);
+            this.Controls.Add(this.txt_Fecha_RegistroAlquiler);
+            this.Controls.Add(this.TXT_idcliente_RegistroAlquiler);
+            this.Controls.Add(this.TXT_IDvideo_RegistroAlquiler);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -367,7 +368,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TXT_id_RegistroAlquiler);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -383,7 +384,7 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TXT_id_RegistroAlquiler;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -394,18 +395,18 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_IDvideo_RegistroAlquiler;
+        private System.Windows.Forms.TextBox TXT_idcliente_RegistroAlquiler;
+        private System.Windows.Forms.TextBox txt_Fecha_RegistroAlquiler;
+        private System.Windows.Forms.TextBox txt_monto_RegistroAlquiler;
+        private System.Windows.Forms.TextBox TXT_idusuario_RegistroAlquiler;
+        private System.Windows.Forms.TextBox TXT_descuento_MembresiaREGISTROALQUILER;
+        private System.Windows.Forms.TextBox TXT_descuento_AdicionalREGISTROALQUILER;
+        private System.Windows.Forms.TextBox TXT_DiasAtraso_REGISTROALQUILER;
+        private System.Windows.Forms.TextBox TXT_subtotal_REGISTROALQUILER;
+        private System.Windows.Forms.TextBox TXT_total_REGISTROALQUILER;
+        private System.Windows.Forms.Button BTN_modificar_REGISTROALQUILER;
+        private System.Windows.Forms.Button BTN_agregar_REGISTROALQUILER;
+        private System.Windows.Forms.Button BTN_regresar_REGISTROALQUILER;
     }
 }

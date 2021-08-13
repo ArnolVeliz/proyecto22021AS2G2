@@ -32,24 +32,24 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form9));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_idVideo_VIDEOSREGIS = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_VIDEOSREGIS = new System.Windows.Forms.Button();
+            this.BTN_agregar_VIDEOSREGIS = new System.Windows.Forms.Button();
+            this.BTN_regresar_VIDEOSREGIS = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.TXT_nom_VIDEOSREGIS = new System.Windows.Forms.TextBox();
+            this.TXT_categoria_VIDEOSREGIS = new System.Windows.Forms.TextBox();
+            this.TXT_estreno_VIDEOSREGIS = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TXT_duracion_VIDEOSREGIS = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.TXT_cantidad_VIDEOSREGIS = new System.Windows.Forms.TextBox();
+            this.TXT_precioDia_VIDEOSREGIS = new System.Windows.Forms.TextBox();
+            this.txt_fechaingreso_VIDEOSREGIS = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -77,51 +77,51 @@ namespace WindowsFormsApp1
             this.label2.Text = "ID de video";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // TXT_idVideo_VIDEOSREGIS
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(183, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 12;
+            this.TXT_idVideo_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idVideo_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idVideo_VIDEOSREGIS.Location = new System.Drawing.Point(183, 64);
+            this.TXT_idVideo_VIDEOSREGIS.Name = "TXT_idVideo_VIDEOSREGIS";
+            this.TXT_idVideo_VIDEOSREGIS.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idVideo_VIDEOSREGIS.TabIndex = 12;
             // 
-            // button1
+            // BTN_modificar_VIDEOSREGIS
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(183, 282);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 33;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_VIDEOSREGIS.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_VIDEOSREGIS.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_VIDEOSREGIS.Location = new System.Drawing.Point(183, 282);
+            this.BTN_modificar_VIDEOSREGIS.Name = "BTN_modificar_VIDEOSREGIS";
+            this.BTN_modificar_VIDEOSREGIS.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_VIDEOSREGIS.TabIndex = 33;
+            this.BTN_modificar_VIDEOSREGIS.Text = "Modificar";
+            this.BTN_modificar_VIDEOSREGIS.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // BTN_agregar_VIDEOSREGIS
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(345, 282);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 34;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BTN_agregar_VIDEOSREGIS.BackColor = System.Drawing.Color.Gold;
+            this.BTN_agregar_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_agregar_VIDEOSREGIS.ForeColor = System.Drawing.Color.Black;
+            this.BTN_agregar_VIDEOSREGIS.Location = new System.Drawing.Point(345, 282);
+            this.BTN_agregar_VIDEOSREGIS.Name = "BTN_agregar_VIDEOSREGIS";
+            this.BTN_agregar_VIDEOSREGIS.Size = new System.Drawing.Size(118, 48);
+            this.BTN_agregar_VIDEOSREGIS.TabIndex = 34;
+            this.BTN_agregar_VIDEOSREGIS.Text = "Agregar";
+            this.BTN_agregar_VIDEOSREGIS.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BTN_regresar_VIDEOSREGIS
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(510, 282);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 35;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_regresar_VIDEOSREGIS.BackColor = System.Drawing.Color.Gold;
+            this.BTN_regresar_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_regresar_VIDEOSREGIS.ForeColor = System.Drawing.Color.Black;
+            this.BTN_regresar_VIDEOSREGIS.Location = new System.Drawing.Point(510, 282);
+            this.BTN_regresar_VIDEOSREGIS.Name = "BTN_regresar_VIDEOSREGIS";
+            this.BTN_regresar_VIDEOSREGIS.Size = new System.Drawing.Size(118, 48);
+            this.BTN_regresar_VIDEOSREGIS.TabIndex = 35;
+            this.BTN_regresar_VIDEOSREGIS.Text = "Regresar";
+            this.BTN_regresar_VIDEOSREGIS.UseVisualStyleBackColor = false;
+            this.BTN_regresar_VIDEOSREGIS.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -159,32 +159,32 @@ namespace WindowsFormsApp1
             this.label5.TabIndex = 38;
             this.label5.Text = "Estreno";
             // 
-            // textBox2
+            // TXT_nom_VIDEOSREGIS
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(183, 104);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 30);
-            this.textBox2.TabIndex = 39;
+            this.TXT_nom_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_nom_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_nom_VIDEOSREGIS.Location = new System.Drawing.Point(183, 104);
+            this.TXT_nom_VIDEOSREGIS.Name = "TXT_nom_VIDEOSREGIS";
+            this.TXT_nom_VIDEOSREGIS.Size = new System.Drawing.Size(184, 30);
+            this.TXT_nom_VIDEOSREGIS.TabIndex = 39;
             // 
-            // textBox3
+            // TXT_categoria_VIDEOSREGIS
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(183, 144);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 40;
+            this.TXT_categoria_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_categoria_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_categoria_VIDEOSREGIS.Location = new System.Drawing.Point(183, 144);
+            this.TXT_categoria_VIDEOSREGIS.Name = "TXT_categoria_VIDEOSREGIS";
+            this.TXT_categoria_VIDEOSREGIS.Size = new System.Drawing.Size(184, 30);
+            this.TXT_categoria_VIDEOSREGIS.TabIndex = 40;
             // 
-            // textBox4
+            // TXT_estreno_VIDEOSREGIS
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(183, 184);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 30);
-            this.textBox4.TabIndex = 41;
+            this.TXT_estreno_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_estreno_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_estreno_VIDEOSREGIS.Location = new System.Drawing.Point(183, 184);
+            this.TXT_estreno_VIDEOSREGIS.Name = "TXT_estreno_VIDEOSREGIS";
+            this.TXT_estreno_VIDEOSREGIS.Size = new System.Drawing.Size(184, 30);
+            this.TXT_estreno_VIDEOSREGIS.TabIndex = 41;
             // 
             // label6
             // 
@@ -198,14 +198,14 @@ namespace WindowsFormsApp1
             this.label6.TabIndex = 42;
             this.label6.Text = "Duración del video";
             // 
-            // textBox5
+            // TXT_duracion_VIDEOSREGIS
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(585, 66);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(142, 30);
-            this.textBox5.TabIndex = 43;
+            this.TXT_duracion_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_duracion_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_duracion_VIDEOSREGIS.Location = new System.Drawing.Point(585, 66);
+            this.TXT_duracion_VIDEOSREGIS.Name = "TXT_duracion_VIDEOSREGIS";
+            this.TXT_duracion_VIDEOSREGIS.Size = new System.Drawing.Size(142, 30);
+            this.TXT_duracion_VIDEOSREGIS.TabIndex = 43;
             // 
             // label7
             // 
@@ -243,32 +243,32 @@ namespace WindowsFormsApp1
             this.label9.TabIndex = 46;
             this.label9.Text = "Fecha de ingreso";
             // 
-            // textBox6
+            // TXT_cantidad_VIDEOSREGIS
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(543, 104);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(184, 30);
-            this.textBox6.TabIndex = 47;
+            this.TXT_cantidad_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_cantidad_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_cantidad_VIDEOSREGIS.Location = new System.Drawing.Point(543, 104);
+            this.TXT_cantidad_VIDEOSREGIS.Name = "TXT_cantidad_VIDEOSREGIS";
+            this.TXT_cantidad_VIDEOSREGIS.Size = new System.Drawing.Size(184, 30);
+            this.TXT_cantidad_VIDEOSREGIS.TabIndex = 47;
             // 
-            // textBox7
+            // TXT_precioDia_VIDEOSREGIS
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(543, 144);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(184, 30);
-            this.textBox7.TabIndex = 48;
+            this.TXT_precioDia_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_precioDia_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_precioDia_VIDEOSREGIS.Location = new System.Drawing.Point(543, 144);
+            this.TXT_precioDia_VIDEOSREGIS.Name = "TXT_precioDia_VIDEOSREGIS";
+            this.TXT_precioDia_VIDEOSREGIS.Size = new System.Drawing.Size(184, 30);
+            this.TXT_precioDia_VIDEOSREGIS.TabIndex = 48;
             // 
-            // textBox8
+            // txt_fechaingreso_VIDEOSREGIS
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(575, 184);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(152, 30);
-            this.textBox8.TabIndex = 49;
+            this.txt_fechaingreso_VIDEOSREGIS.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txt_fechaingreso_VIDEOSREGIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fechaingreso_VIDEOSREGIS.Location = new System.Drawing.Point(575, 184);
+            this.txt_fechaingreso_VIDEOSREGIS.Name = "txt_fechaingreso_VIDEOSREGIS";
+            this.txt_fechaingreso_VIDEOSREGIS.Size = new System.Drawing.Size(152, 30);
+            this.txt_fechaingreso_VIDEOSREGIS.TabIndex = 49;
             // 
             // Form9
             // 
@@ -276,24 +276,24 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txt_fechaingreso_VIDEOSREGIS);
+            this.Controls.Add(this.TXT_precioDia_VIDEOSREGIS);
+            this.Controls.Add(this.TXT_cantidad_VIDEOSREGIS);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.TXT_duracion_VIDEOSREGIS);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TXT_estreno_VIDEOSREGIS);
+            this.Controls.Add(this.TXT_categoria_VIDEOSREGIS);
+            this.Controls.Add(this.TXT_nom_VIDEOSREGIS);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BTN_regresar_VIDEOSREGIS);
+            this.Controls.Add(this.BTN_agregar_VIDEOSREGIS);
+            this.Controls.Add(this.BTN_modificar_VIDEOSREGIS);
+            this.Controls.Add(this.TXT_idVideo_VIDEOSREGIS);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -309,23 +309,23 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_idVideo_VIDEOSREGIS;
+        private System.Windows.Forms.Button BTN_modificar_VIDEOSREGIS;
+        private System.Windows.Forms.Button BTN_agregar_VIDEOSREGIS;
+        private System.Windows.Forms.Button BTN_regresar_VIDEOSREGIS;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox TXT_nom_VIDEOSREGIS;
+        private System.Windows.Forms.TextBox TXT_categoria_VIDEOSREGIS;
+        private System.Windows.Forms.TextBox TXT_estreno_VIDEOSREGIS;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TXT_duracion_VIDEOSREGIS;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox TXT_cantidad_VIDEOSREGIS;
+        private System.Windows.Forms.TextBox TXT_precioDia_VIDEOSREGIS;
+        private System.Windows.Forms.TextBox txt_fechaingreso_VIDEOSREGIS;
     }
 }

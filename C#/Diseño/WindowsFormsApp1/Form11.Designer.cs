@@ -32,14 +32,14 @@ namespace WindowsFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form11));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TXT_idCategoria_CATEPELI = new System.Windows.Forms.TextBox();
+            this.BTN_modificar_CATEPELI = new System.Windows.Forms.Button();
+            this.BTN_agregar_CATEPELI = new System.Windows.Forms.Button();
+            this.BTN_regresar_CATEPELI = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TXT_nombre_CATEPELI = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TXT_des_CATEPELI = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -66,51 +66,51 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 13;
             this.label2.Text = "ID de categoria";
             // 
-            // textBox1
+            // TXT_idCategoria_CATEPELI
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(196, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 30);
-            this.textBox1.TabIndex = 14;
+            this.TXT_idCategoria_CATEPELI.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_idCategoria_CATEPELI.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_idCategoria_CATEPELI.Location = new System.Drawing.Point(196, 76);
+            this.TXT_idCategoria_CATEPELI.Name = "TXT_idCategoria_CATEPELI";
+            this.TXT_idCategoria_CATEPELI.Size = new System.Drawing.Size(184, 30);
+            this.TXT_idCategoria_CATEPELI.TabIndex = 14;
             // 
-            // button1
+            // BTN_modificar_CATEPELI
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(196, 213);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 48);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTN_modificar_CATEPELI.BackColor = System.Drawing.Color.Gold;
+            this.BTN_modificar_CATEPELI.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_modificar_CATEPELI.ForeColor = System.Drawing.Color.Black;
+            this.BTN_modificar_CATEPELI.Location = new System.Drawing.Point(196, 213);
+            this.BTN_modificar_CATEPELI.Name = "BTN_modificar_CATEPELI";
+            this.BTN_modificar_CATEPELI.Size = new System.Drawing.Size(118, 48);
+            this.BTN_modificar_CATEPELI.TabIndex = 35;
+            this.BTN_modificar_CATEPELI.Text = "Modificar";
+            this.BTN_modificar_CATEPELI.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // BTN_agregar_CATEPELI
             // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(350, 213);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 48);
-            this.button2.TabIndex = 36;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BTN_agregar_CATEPELI.BackColor = System.Drawing.Color.Gold;
+            this.BTN_agregar_CATEPELI.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_agregar_CATEPELI.ForeColor = System.Drawing.Color.Black;
+            this.BTN_agregar_CATEPELI.Location = new System.Drawing.Point(350, 213);
+            this.BTN_agregar_CATEPELI.Name = "BTN_agregar_CATEPELI";
+            this.BTN_agregar_CATEPELI.Size = new System.Drawing.Size(118, 48);
+            this.BTN_agregar_CATEPELI.TabIndex = 36;
+            this.BTN_agregar_CATEPELI.Text = "Agregar";
+            this.BTN_agregar_CATEPELI.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BTN_regresar_CATEPELI
             // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(500, 213);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 48);
-            this.button3.TabIndex = 37;
-            this.button3.Text = "Regresar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BTN_regresar_CATEPELI.BackColor = System.Drawing.Color.Gold;
+            this.BTN_regresar_CATEPELI.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_regresar_CATEPELI.ForeColor = System.Drawing.Color.Black;
+            this.BTN_regresar_CATEPELI.Location = new System.Drawing.Point(500, 213);
+            this.BTN_regresar_CATEPELI.Name = "BTN_regresar_CATEPELI";
+            this.BTN_regresar_CATEPELI.Size = new System.Drawing.Size(118, 48);
+            this.BTN_regresar_CATEPELI.TabIndex = 37;
+            this.BTN_regresar_CATEPELI.Text = "Regresar";
+            this.BTN_regresar_CATEPELI.UseVisualStyleBackColor = false;
+            this.BTN_regresar_CATEPELI.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -124,14 +124,14 @@ namespace WindowsFormsApp1
             this.label3.TabIndex = 38;
             this.label3.Text = "Nombre";
             // 
-            // textBox2
+            // TXT_nombre_CATEPELI
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(171, 119);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(209, 30);
-            this.textBox2.TabIndex = 39;
+            this.TXT_nombre_CATEPELI.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_nombre_CATEPELI.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_nombre_CATEPELI.Location = new System.Drawing.Point(171, 119);
+            this.TXT_nombre_CATEPELI.Name = "TXT_nombre_CATEPELI";
+            this.TXT_nombre_CATEPELI.Size = new System.Drawing.Size(209, 30);
+            this.TXT_nombre_CATEPELI.TabIndex = 39;
             // 
             // label4
             // 
@@ -145,14 +145,14 @@ namespace WindowsFormsApp1
             this.label4.TabIndex = 40;
             this.label4.Text = "Descripción";
             // 
-            // textBox3
+            // TXT_des_CATEPELI
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(525, 76);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 30);
-            this.textBox3.TabIndex = 41;
+            this.TXT_des_CATEPELI.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TXT_des_CATEPELI.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_des_CATEPELI.Location = new System.Drawing.Point(525, 76);
+            this.TXT_des_CATEPELI.Name = "TXT_des_CATEPELI";
+            this.TXT_des_CATEPELI.Size = new System.Drawing.Size(184, 30);
+            this.TXT_des_CATEPELI.TabIndex = 41;
             // 
             // Form11
             // 
@@ -160,14 +160,14 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.TXT_des_CATEPELI);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TXT_nombre_CATEPELI);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.BTN_regresar_CATEPELI);
+            this.Controls.Add(this.BTN_agregar_CATEPELI);
+            this.Controls.Add(this.BTN_modificar_CATEPELI);
+            this.Controls.Add(this.TXT_idCategoria_CATEPELI);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -183,13 +183,13 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox TXT_idCategoria_CATEPELI;
+        private System.Windows.Forms.Button BTN_modificar_CATEPELI;
+        private System.Windows.Forms.Button BTN_agregar_CATEPELI;
+        private System.Windows.Forms.Button BTN_regresar_CATEPELI;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TXT_nombre_CATEPELI;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TXT_des_CATEPELI;
     }
 }

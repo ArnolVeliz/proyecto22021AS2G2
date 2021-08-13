@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             Form formulario = new Form3();
             formulario.Show();
@@ -35,6 +35,8 @@ namespace WindowsFormsApp1
         {
             Form formulario = new Form4();
             formulario.Show();
+
+
         }
 
         private void button3_Click(object sender, EventArgs e)
