@@ -75,6 +75,7 @@ namespace WindowsFormsApp1
             this.label2.Size = new System.Drawing.Size(110, 25);
             this.label2.TabIndex = 11;
             this.label2.Text = "ID de video";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // TXT_idVideo_VIDEOSREGIS
             // 

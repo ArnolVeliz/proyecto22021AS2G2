@@ -50,5 +50,11 @@ namespace WindowsFormsApp1
             Form formulario = new Form2();
             formulario.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form formulario = new Form13();
+            formulario.Show();
+        }
     }
 }

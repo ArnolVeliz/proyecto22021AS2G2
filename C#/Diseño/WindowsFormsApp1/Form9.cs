@@ -30,5 +30,10 @@ namespace WindowsFormsApp1
             Form formulario = new Form2();
             formulario.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
