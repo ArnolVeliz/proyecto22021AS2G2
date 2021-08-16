@@ -31,7 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.TXT_idUsuario = new System.Windows.Forms.TextBox();
-            this.BTN_modificarUSUARIO = new System.Windows.Forms.Button();
             this.BTN_agregarUSUARIO = new System.Windows.Forms.Button();
             this.BTN_regresarUSUARIO = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -92,25 +91,12 @@
             this.TXT_idUsuario.Size = new System.Drawing.Size(184, 30);
             this.TXT_idUsuario.TabIndex = 9;
             // 
-            // BTN_modificarUSUARIO
-            // 
-            this.BTN_modificarUSUARIO.BackColor = System.Drawing.Color.Gold;
-            this.BTN_modificarUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTN_modificarUSUARIO.ForeColor = System.Drawing.Color.Black;
-            this.BTN_modificarUSUARIO.Location = new System.Drawing.Point(203, 338);
-            this.BTN_modificarUSUARIO.Name = "BTN_modificarUSUARIO";
-            this.BTN_modificarUSUARIO.Size = new System.Drawing.Size(118, 48);
-            this.BTN_modificarUSUARIO.TabIndex = 10;
-            this.BTN_modificarUSUARIO.Text = "Modificar";
-            this.BTN_modificarUSUARIO.UseVisualStyleBackColor = false;
-            this.BTN_modificarUSUARIO.Click += new System.EventHandler(this.BTN_modificarUSUARIO_Click);
-            // 
             // BTN_agregarUSUARIO
             // 
             this.BTN_agregarUSUARIO.BackColor = System.Drawing.Color.Gold;
             this.BTN_agregarUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_agregarUSUARIO.ForeColor = System.Drawing.Color.Black;
-            this.BTN_agregarUSUARIO.Location = new System.Drawing.Point(363, 338);
+            this.BTN_agregarUSUARIO.Location = new System.Drawing.Point(236, 358);
             this.BTN_agregarUSUARIO.Name = "BTN_agregarUSUARIO";
             this.BTN_agregarUSUARIO.Size = new System.Drawing.Size(118, 48);
             this.BTN_agregarUSUARIO.TabIndex = 32;
@@ -123,7 +109,7 @@
             this.BTN_regresarUSUARIO.BackColor = System.Drawing.Color.Gold;
             this.BTN_regresarUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_regresarUSUARIO.ForeColor = System.Drawing.Color.Black;
-            this.BTN_regresarUSUARIO.Location = new System.Drawing.Point(525, 338);
+            this.BTN_regresarUSUARIO.Location = new System.Drawing.Point(398, 358);
             this.BTN_regresarUSUARIO.Name = "BTN_regresarUSUARIO";
             this.BTN_regresarUSUARIO.Size = new System.Drawing.Size(118, 48);
             this.BTN_regresarUSUARIO.TabIndex = 33;
@@ -392,7 +378,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.BTN_regresarUSUARIO);
             this.Controls.Add(this.BTN_agregarUSUARIO);
-            this.Controls.Add(this.BTN_modificarUSUARIO);
             this.Controls.Add(this.TXT_idUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -409,7 +394,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TXT_idUsuario;
-        private System.Windows.Forms.Button BTN_modificarUSUARIO;
         private System.Windows.Forms.Button BTN_agregarUSUARIO;
         private System.Windows.Forms.Button BTN_regresarUSUARIO;
         private System.Windows.Forms.Label label3;

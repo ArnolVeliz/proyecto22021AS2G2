@@ -80,7 +80,7 @@ namespace CapaVista
         private void BTN_modificar_VIDEOSREGIS_Click(object sender, EventArgs e)
         {
             string[] valores = { TXT_idVideo_VIDEOSREGIS.Text, TXT_nom_VIDEOSREGIS.Text, TXT_categoria_VIDEOSREGIS.Text, TXT_estreno_VIDEOSREGIS.Text, TXT_duracion_VIDEOSREGIS.Text, TXT_cantidad_VIDEOSREGIS.Text, TXT_precioDia_VIDEOSREGIS.Text, txt_fechaingreso_VIDEOSREGIS.Text, textBox1.Text }; //valores a ingresar
-            if (logi.modificar_categoria_pel(valores) == null)
+            if (logi.modificar_videos(valores) == null)
             {
                 MessageBox.Show("Error al modificar");
             }

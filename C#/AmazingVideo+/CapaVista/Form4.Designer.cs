@@ -45,6 +45,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Id_Membresia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descuento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Numero_de_pelicula = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,7 +93,7 @@
             this.BTN_modificarMEMBRESIA.BackColor = System.Drawing.Color.Gold;
             this.BTN_modificarMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_modificarMEMBRESIA.ForeColor = System.Drawing.Color.Black;
-            this.BTN_modificarMEMBRESIA.Location = new System.Drawing.Point(192, 239);
+            this.BTN_modificarMEMBRESIA.Location = new System.Drawing.Point(106, 241);
             this.BTN_modificarMEMBRESIA.Name = "BTN_modificarMEMBRESIA";
             this.BTN_modificarMEMBRESIA.Size = new System.Drawing.Size(118, 48);
             this.BTN_modificarMEMBRESIA.TabIndex = 11;
@@ -99,7 +106,7 @@
             this.BTN_agregarMEMBRESIA.BackColor = System.Drawing.Color.Gold;
             this.BTN_agregarMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_agregarMEMBRESIA.ForeColor = System.Drawing.Color.Black;
-            this.BTN_agregarMEMBRESIA.Location = new System.Drawing.Point(346, 239);
+            this.BTN_agregarMEMBRESIA.Location = new System.Drawing.Point(260, 241);
             this.BTN_agregarMEMBRESIA.Name = "BTN_agregarMEMBRESIA";
             this.BTN_agregarMEMBRESIA.Size = new System.Drawing.Size(118, 48);
             this.BTN_agregarMEMBRESIA.TabIndex = 33;
@@ -112,7 +119,7 @@
             this.BTN_regresarMEMBRESIA.BackColor = System.Drawing.Color.Gold;
             this.BTN_regresarMEMBRESIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_regresarMEMBRESIA.ForeColor = System.Drawing.Color.Black;
-            this.BTN_regresarMEMBRESIA.Location = new System.Drawing.Point(502, 239);
+            this.BTN_regresarMEMBRESIA.Location = new System.Drawing.Point(416, 241);
             this.BTN_regresarMEMBRESIA.Name = "BTN_regresarMEMBRESIA";
             this.BTN_regresarMEMBRESIA.Size = new System.Drawing.Size(118, 48);
             this.BTN_regresarMEMBRESIA.TabIndex = 34;
@@ -219,9 +226,10 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(528, 163);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 20);
+            this.textBox1.Size = new System.Drawing.Size(218, 30);
             this.textBox1.TabIndex = 44;
             // 
             // dataGridView1
@@ -230,6 +238,13 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id_Membresia,
+            this.Nombre,
+            this.Descripcion,
+            this.Descuento,
+            this.Numero_de_pelicula,
+            this.Usuario});
             this.dataGridView1.Location = new System.Drawing.Point(36, 322);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -237,12 +252,61 @@
             this.dataGridView1.Size = new System.Drawing.Size(699, 101);
             this.dataGridView1.TabIndex = 45;
             // 
+            // Id_Membresia
+            // 
+            this.Id_Membresia.HeaderText = "Id_Membresia";
+            this.Id_Membresia.Name = "Id_Membresia";
+            this.Id_Membresia.ReadOnly = true;
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.HeaderText = "Descripcion";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            // 
+            // Descuento
+            // 
+            this.Descuento.HeaderText = "Descuento";
+            this.Descuento.Name = "Descuento";
+            this.Descuento.ReadOnly = true;
+            // 
+            // Numero_de_pelicula
+            // 
+            this.Numero_de_pelicula.HeaderText = "Numero_de_pelicula";
+            this.Numero_de_pelicula.Name = "Numero_de_pelicula";
+            this.Numero_de_pelicula.ReadOnly = true;
+            // 
+            // Usuario
+            // 
+            this.Usuario.HeaderText = "Usuario";
+            this.Usuario.Name = "Usuario";
+            this.Usuario.ReadOnly = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(553, 241);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 47);
+            this.button1.TabIndex = 46;
+            this.button1.Text = "Mostrar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label7);
@@ -288,5 +352,12 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id_Membresia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descuento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Numero_de_pelicula;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Usuario;
+        private System.Windows.Forms.Button button1;
     }
 }
