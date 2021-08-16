@@ -109,7 +109,7 @@ namespace CapaVista
         private void BTN_modificar_REGISTROPAGO_Click(object sender, EventArgs e)
         {
             string[] valores = { textBox1.Text, TXT_idRegistro_REGISTROPAGO.Text, TXT_alquiler_REGISTROPAGO.Text, TXT_pagototal_REGISTROPAGO.Text, TXT_abono_REGISTROPAGO.Text, TXT_vuelto_REGISTROPAGO.Text, TXT_numeroTarjeta_REGISTROPAGO.Text, TXT_fechaExp_REGISTROPAGO.Text, TXT_titular_REGISTROPAGO.Text, TXT_efectivo_REGISTROPAGO.Text, textBox2.Text, textBox3.Text }; //valores a ingresar
-            if (logi.modificar_categoria_pel(valores) == null)
+            if (logi.modificar_registro_pagos(valores) == null)
             {
                 MessageBox.Show("Error al modificar");
             }

@@ -107,5 +107,11 @@ namespace CapaVista
 
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            mostrar_consulta();
+        }
     }
 }
